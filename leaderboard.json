@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T20:08:25+00:00",
+  "updated": "2026-10-13T15:15:13+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -470,13 +470,14 @@
       "desc": "Add runtime Deprecation, Sunset, and Link headers plus OpenAPI metadata and tracking middleware for deprecated routes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "jjwu67"
+        "jjwu67",
+        "mattiafazzini"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "fastapi-implicit-head-options",
@@ -1826,7 +1827,7 @@
   "entries": [
     {
       "name": "jjwu67",
-      "points": 10.0,
+      "points": 5.0,
       "solved": 1,
       "submissions": 1,
       "tasks": {
@@ -1834,7 +1835,22 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
+        }
+      },
+      "place": 1
+    },
+    {
+      "name": "mattiafazzini",
+      "points": 5.0,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 1
