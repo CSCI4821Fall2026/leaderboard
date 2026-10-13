@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T15:42:46+00:00",
+  "updated": "2026-10-13T19:35:11+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -470,14 +470,11 @@
       "desc": "Add runtime Deprecation, Sunset, and Link headers plus OpenAPI metadata and tracking middleware for deprecated routes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 0,
       "available": true,
-      "solved_by": [
-        "jjwu67",
-        "mattiafazzini"
-      ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "solved_by": [],
+      "points_each": 0.0,
+      "next_points": 10.0
     },
     {
       "id": "fastapi-implicit-head-options",
@@ -617,13 +614,11 @@
       "desc": "Ensure interrupted request and response body reads, formData parsing, and discarded timers abort cleanly during shutdown.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 0,
       "available": true,
-      "solved_by": [
-        "mattiafazzini"
-      ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "solved_by": [],
+      "points_each": 0.0,
+      "next_points": 10.0
     },
     {
       "id": "happy-dom-deterministic-intersectionobserver",
@@ -1826,42 +1821,5 @@
       "next_points": 10.0
     }
   ],
-  "entries": [
-    {
-      "name": "mattiafazzini",
-      "points": 15.0,
-      "solved": 2,
-      "submissions": 2,
-      "tasks": {
-        "fastapi-deprecation-response-headers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "happy-dom-abort-pending-body-reads": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        }
-      },
-      "place": 1
-    },
-    {
-      "name": "jjwu67",
-      "points": 5.0,
-      "solved": 1,
-      "submissions": 2,
-      "tasks": {
-        "fastapi-deprecation-response-headers": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 5.0
-        }
-      },
-      "place": 2
-    }
-  ]
+  "entries": []
 }
