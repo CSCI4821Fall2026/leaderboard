@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T04:37:39+00:00",
+  "updated": "2026-10-14T04:47:56+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -118,11 +118,13 @@
       "desc": "Add typed `var` declarations in Anko and enforce declared type constraints on assignment when TypedBindings is enabled.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "arcane-drift-detection-baselines",
@@ -182,11 +184,13 @@
       "desc": "Add incremental analysis caching with cache invalidation, import/export, pruning, and cache inspection CLI options.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "bandit-interprocedural-taint-checks",
@@ -1840,9 +1844,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 80.0,
-      "solved": 8,
-      "submissions": 20,
+      "points": 100.0,
+      "solved": 10,
+      "submissions": 23,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1915,6 +1919,22 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "anko-typed-variable-bindings": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "bandit-incremental-cache-control": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "mashumaro-flattened-dataclass-fields": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
