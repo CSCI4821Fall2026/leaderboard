@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T03:57:24+00:00",
+  "updated": "2026-10-14T04:12:52+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1292,11 +1292,13 @@
       "desc": "PromQL label sorting must order mixed typed and untyped label values with stable typed comparison rules.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "psd-tools-blend-range-api",
@@ -1830,9 +1832,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 30.0,
-      "solved": 3,
-      "submissions": 13,
+      "points": 40.0,
+      "solved": 4,
+      "submissions": 14,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1863,6 +1865,12 @@
           "points": 10.0
         },
         "cliffy-config-file-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "prometheus-typed-label-sorting": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
