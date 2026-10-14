@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T00:07:52+00:00",
+  "updated": "2026-10-14T03:23:42+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -486,11 +486,13 @@
       "desc": "Add configurable implicit HEAD handling and automatic OPTIONS responses for FastAPI routes, routers, and included routers.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "fd-deterministic-multi-key-sorting",
@@ -1824,9 +1826,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 0,
-      "solved": 0,
-      "submissions": 10,
+      "points": 10.0,
+      "solved": 1,
+      "submissions": 11,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1843,6 +1845,12 @@
         "superjson-error-stack-serialization": {
           "reward": 0,
           "attempts": 3
+        },
+        "fastapi-implicit-head-options": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
