@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T04:32:02+00:00",
+  "updated": "2026-10-14T04:37:39+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -684,11 +684,13 @@
       "desc": "Add a deterministic CookieStore with modern Set-Cookie parsing, cookie eviction, and request header handling.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "httpx-multipart-response-parsing",
@@ -1054,11 +1056,13 @@
       "desc": "Add the remaining rolling window methods to Expr and Series with consistent validation and backend delegation.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "numba-stencil-boundary-modes",
@@ -1836,9 +1840,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 60.0,
-      "solved": 6,
-      "submissions": 18,
+      "points": 80.0,
+      "solved": 8,
+      "submissions": 20,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1899,6 +1903,18 @@
         "actionlint-action-pinning-lint": {
           "reward": 0,
           "attempts": 1
+        },
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
