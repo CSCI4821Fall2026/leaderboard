@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T00:00:08+00:00",
+  "updated": "2026-10-14T00:07:52+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1826,7 +1826,7 @@
       "name": "xingjianwang001",
       "points": 0,
       "solved": 0,
-      "submissions": 8,
+      "submissions": 10,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1838,11 +1838,11 @@
         },
         "effect-sse-httpapi-streaming": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "superjson-error-stack-serialization": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         }
       },
       "place": 1
