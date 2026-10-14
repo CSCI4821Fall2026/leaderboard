@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T04:20:57+00:00",
+  "updated": "2026-10-14T04:32:02+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1838,7 +1838,7 @@
       "name": "xingjianwang001",
       "points": 60.0,
       "solved": 6,
-      "submissions": 17,
+      "submissions": 18,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1895,6 +1895,10 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "actionlint-action-pinning-lint": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
