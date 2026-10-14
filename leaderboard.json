@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T04:12:52+00:00",
+  "updated": "2026-10-14T04:20:57+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -700,11 +700,13 @@
       "desc": "Add Response iterators that parse multipart HTTP response bodies into parts.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "httpx-streaming-json-iteration",
@@ -1678,11 +1680,13 @@
       "desc": "Add a new `matchEach` matcher that evaluates all matching clauses and returns all results in order.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "updo-policy-alerting",
@@ -1832,9 +1836,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 40.0,
-      "solved": 4,
-      "submissions": 14,
+      "points": 60.0,
+      "solved": 6,
+      "submissions": 17,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1871,6 +1875,22 @@
           "points": 10.0
         },
         "prometheus-typed-label-sorting": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "ts-pattern-match-each": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "quill-shared-toolbar-focus": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "httpx-multipart-response-parsing": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
