@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:24:00+00:00",
+  "updated": "2026-10-15T22:31:38+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1420,11 +1420,13 @@
       "desc": "Add a Validated container that accumulates errors while preserving standard container APIs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "scc-bounded-memory-spilling",
@@ -2012,9 +2014,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 65.0,
-      "solved": 7,
-      "submissions": 10,
+      "points": 75.0,
+      "solved": 8,
+      "submissions": 12,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2061,6 +2063,16 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 2
