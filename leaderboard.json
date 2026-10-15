@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:31:38+00:00",
+  "updated": "2026-10-15T22:39:32+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -252,11 +252,13 @@
       "desc": "Add `partial_structure` and `PartialResult` for recoverable, field-level structuring with nested partial results.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "clack-async-autocomplete-options",
@@ -2014,9 +2016,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 75.0,
-      "solved": 8,
-      "submissions": 12,
+      "points": 85.0,
+      "solved": 9,
+      "submissions": 14,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2050,7 +2052,7 @@
         },
         "abs-stepped-slices": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         },
         "true-myth-iterable-collection-combinators": {
           "reward": 1,
@@ -2071,8 +2073,10 @@
           "points": 10.0
         },
         "cattrs-partial-structuring-recovery": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 2
