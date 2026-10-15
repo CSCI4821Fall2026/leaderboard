@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:58:49+00:00",
+  "updated": "2026-10-15T22:04:27+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -334,11 +334,13 @@
       "desc": "Add read and write support for HTML documents with Dasel's format handling.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "dateutil-rfc5545-timezone-interop",
@@ -1005,11 +1007,13 @@
       "desc": "Add field_options support for flattening nested dataclass fields into parent dictionaries with prefix and rename validation.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "meriyah-explicit-resource-declarations",
@@ -2004,9 +2008,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 25.0,
-      "solved": 3,
-      "submissions": 4,
+      "points": 45.0,
+      "solved": 5,
+      "submissions": 6,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2025,6 +2029,18 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "mashumaro-flattened-dataclass-fields": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "dasel-html-document-format": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 2
