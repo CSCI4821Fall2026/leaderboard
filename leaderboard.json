@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T18:00:56+00:00",
+  "updated": "2026-10-15T18:53:29+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1065,15 +1065,16 @@
       "desc": "Add the remaining rolling window methods to Expr and Series with consistent validation and backend delegation.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 3,
+      "solvers": 4,
       "available": true,
       "solved_by": [
         "xingjianwang001",
         "salee036-sys",
+        "mai00082",
         "benpullis"
       ],
-      "points_each": 3.3333,
-      "next_points": 2.5
+      "points_each": 2.5,
+      "next_points": 2.0
     },
     {
       "id": "numba-stencil-boundary-modes",
@@ -1855,7 +1856,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 208.3333,
+      "points": 207.5,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1923,7 +1924,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 3.3333333333333335
+          "points": 2.5
         },
         "httpx-deterministic-cookie-store": {
           "reward": 1,
@@ -1996,7 +1997,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 8.3333,
+      "points": 7.5,
       "solved": 2,
       "submissions": 3,
       "tasks": {
@@ -2004,7 +2005,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 3.3333333333333335
+          "points": 2.5
         },
         "httpx-deterministic-cookie-store": {
           "reward": 1,
@@ -2021,7 +2022,22 @@
     },
     {
       "name": "benpullis",
-      "points": 3.3333,
+      "points": 2.5,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        }
+      },
+      "place": 3
+    },
+    {
+      "name": "mai00082",
+      "points": 2.5,
       "solved": 1,
       "submissions": 1,
       "tasks": {
@@ -2029,7 +2045,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 3,
-          "points": 3.3333333333333335
+          "points": 2.5
         }
       },
       "place": 3
