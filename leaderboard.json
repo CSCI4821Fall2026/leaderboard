@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:24:31+00:00",
+  "updated": "2026-10-15T21:42:45+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2034,13 +2034,17 @@
       "name": "umnfoxiny7",
       "points": 10.0,
       "solved": 1,
-      "submissions": 1,
+      "submissions": 2,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "bandit-interprocedural-taint-checks": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 3
