@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:04:27+00:00",
+  "updated": "2026-10-15T22:15:47+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2010,7 +2010,7 @@
       "name": "umnfoxiny7",
       "points": 45.0,
       "solved": 5,
-      "submissions": 6,
+      "submissions": 7,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2041,6 +2041,10 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "abs-stepped-slices": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 2
