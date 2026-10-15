@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:51:05+00:00",
+  "updated": "2026-10-15T21:58:49+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -202,11 +202,13 @@
       "desc": "Track user input through variables and calls so Bandit flags injection sinks beyond string literals.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "bandit-structured-nosec-directives",
@@ -2002,9 +2004,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 15.0,
-      "solved": 2,
-      "submissions": 3,
+      "points": 25.0,
+      "solved": 3,
+      "submissions": 4,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2013,8 +2015,10 @@
           "points": 10.0
         },
         "bandit-interprocedural-taint-checks": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 10.0
         },
         "fastapi-deprecation-response-headers": {
           "reward": 1,
