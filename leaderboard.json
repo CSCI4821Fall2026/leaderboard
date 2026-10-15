@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T18:53:29+00:00",
+  "updated": "2026-10-15T19:31:22+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2024,13 +2024,17 @@
       "name": "benpullis",
       "points": 2.5,
       "solved": 1,
-      "submissions": 1,
+      "submissions": 2,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
           "attempts": 1,
           "rank": 4,
           "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 3
@@ -2048,7 +2052,7 @@
           "points": 2.5
         }
       },
-      "place": 3
+      "place": 4
     }
   ]
 }
