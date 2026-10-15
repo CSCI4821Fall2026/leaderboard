@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T02:53:27+00:00",
+  "updated": "2026-10-15T02:59:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -428,11 +428,13 @@
       "desc": "Add cursor-based keyset pagination to `$find` with nextCursor handling and validation.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "etree-xml-diff-patch",
@@ -1846,9 +1848,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 120.0,
-      "solved": 11,
-      "submissions": 25,
+      "points": 140.0,
+      "solved": 12,
+      "submissions": 26,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1947,6 +1949,12 @@
         "optique-conditional-option-dependencies": {
           "reward": 0,
           "attempts": 1
+        },
+        "eicrud-keyset-pagination-cursor": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 1
