@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T19:53:26+00:00",
+  "updated": "2026-10-15T20:04:32+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2000,7 +2000,7 @@
       "name": "salee036-sys",
       "points": 5.8333,
       "solved": 2,
-      "submissions": 3,
+      "submissions": 4,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2016,7 +2016,7 @@
         },
         "ink-grid-box-layout": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         }
       },
       "place": 2
