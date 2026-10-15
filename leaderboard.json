@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:48:09+00:00",
+  "updated": "2026-10-15T22:57:14+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -70,11 +70,13 @@
       "desc": "Add load-only alias support to name mapping so fields can resolve from alternate input keys.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "aiomonitor-task-snapshots-diff",
@@ -979,11 +981,13 @@
       "desc": "Add grouped aggregation clauses, window frame builders, null-handling modifiers, and related SQL function helpers.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "langchain-request-coalescing",
@@ -2020,9 +2024,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 95.0,
-      "solved": 10,
-      "submissions": 15,
+      "points": 115.0,
+      "solved": 12,
+      "submissions": 18,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2083,6 +2087,22 @@
           "points": 10.0
         },
         "sqlite-utils-safe-import-checkpoints": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "adaptix-name-mapping-aliases": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "mnamer-daemon-watch-lifecycle": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "kysely-window-grouping-helpers": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
