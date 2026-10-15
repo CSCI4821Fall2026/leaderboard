@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T05:11:15+00:00",
+  "updated": "2026-10-15T05:42:22+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1856,7 +1856,7 @@
       "name": "xingjianwang001",
       "points": 210.0,
       "solved": 14,
-      "submissions": 32,
+      "submissions": 33,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1976,7 +1976,7 @@
         },
         "prometheus-transactional-reload-status": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "gql-incremental-graphql-delivery": {
           "reward": 0,
