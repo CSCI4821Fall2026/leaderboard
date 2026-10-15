@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:46:01+00:00",
+  "updated": "2026-10-15T23:54:12+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -255,13 +255,14 @@
       "desc": "Add `partial_structure` and `PartialResult` for recoverable, field-level structuring with nested partial results.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "clack-async-autocomplete-options",
@@ -357,11 +358,13 @@
       "desc": "Extend rrule and rruleset to serialize, parse, and compare RFC 5545 timezone-aware recurrence data.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "drizzle-orm-window-function-builders",
@@ -720,13 +723,14 @@
       "desc": "Add Response iterators that parse multipart HTTP response bodies into parts.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "httpx-streaming-json-iteration",
@@ -1893,7 +1897,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 195.8333,
+      "points": 190.8333,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1951,7 +1955,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "actionlint-action-pinning-lint": {
           "reward": 0,
@@ -2034,7 +2038,7 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 125.0,
+      "points": 120.0,
       "solved": 15,
       "submissions": 22,
       "tasks": {
@@ -2094,7 +2098,7 @@
           "reward": 1,
           "attempts": 2,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "sqlite-utils-safe-import-checkpoints": {
           "reward": 1,
@@ -2141,9 +2145,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 50.8333,
-      "solved": 8,
-      "submissions": 10,
+      "points": 80.8333,
+      "solved": 11,
+      "submissions": 13,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2192,6 +2196,24 @@
           "points": 5.0
         },
         "tomlkit-toml-table-converters": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "dateutil-rfc5545-timezone-interop": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "httpx-multipart-response-parsing": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
