@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T20:04:32+00:00",
+  "updated": "2026-10-15T20:19:19+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1699,13 +1699,14 @@
       "desc": "Add a new `matchEach` matcher that evaluates all matching clauses and returns all results in order.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "updo-policy-alerting",
@@ -1857,7 +1858,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 205.8333,
+      "points": 200.8333,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1905,7 +1906,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "quill-shared-toolbar-focus": {
           "reward": 0,
@@ -1998,9 +1999,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 5.8333,
-      "solved": 2,
-      "submissions": 4,
+      "points": 10.8333,
+      "solved": 3,
+      "submissions": 5,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2017,6 +2018,12 @@
         "ink-grid-box-layout": {
           "reward": 0,
           "attempts": 2
+        },
+        "ts-pattern-match-each": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 2
