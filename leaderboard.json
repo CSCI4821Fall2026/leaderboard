@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T21:42:45+00:00",
+  "updated": "2026-10-15T21:51:05+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -478,13 +478,14 @@
       "desc": "Add runtime Deprecation, Sunset, and Link headers plus OpenAPI metadata and tracking middleware for deprecated routes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "umnfoxiny7"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "fastapi-implicit-head-options",
@@ -1860,7 +1861,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 200.8333,
+      "points": 195.8333,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1890,7 +1891,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "cliffy-config-file-parsing": {
           "reward": 1,
@@ -2000,6 +2001,31 @@
       "place": 1
     },
     {
+      "name": "umnfoxiny7",
+      "points": 15.0,
+      "solved": 2,
+      "submissions": 3,
+      "tasks": {
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "bandit-interprocedural-taint-checks": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        }
+      },
+      "place": 2
+    },
+    {
       "name": "salee036-sys",
       "points": 10.8333,
       "solved": 3,
@@ -2026,25 +2052,6 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
-        }
-      },
-      "place": 2
-    },
-    {
-      "name": "umnfoxiny7",
-      "points": 10.0,
-      "solved": 1,
-      "submissions": 2,
-      "tasks": {
-        "psd-tools-blend-range-api": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "bandit-interprocedural-taint-checks": {
-          "reward": 0,
-          "attempts": 1
         }
       },
       "place": 3
