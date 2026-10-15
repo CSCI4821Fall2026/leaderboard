@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T04:55:46+00:00",
+  "updated": "2026-10-15T05:03:46+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1855,7 +1855,7 @@
       "name": "xingjianwang001",
       "points": 215.0,
       "solved": 14,
-      "submissions": 30,
+      "submissions": 32,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1978,6 +1978,14 @@
           "attempts": 1
         },
         "gql-incremental-graphql-delivery": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "bandit-structured-nosec-directives": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "termenv-preserve-ansi-resets": {
           "reward": 0,
           "attempts": 1
         }
