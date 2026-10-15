@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T02:59:23+00:00",
+  "updated": "2026-10-15T04:25:08+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1224,11 +1224,13 @@
       "desc": "Keep rewrite optimizations from breaking structure-dependent stylesheet selector matching.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 40.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 40.0,
+      "next_points": 20.0
     },
     {
       "id": "participle-grammar-conflict-analysis",
@@ -1848,9 +1850,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 140.0,
-      "solved": 12,
-      "submissions": 26,
+      "points": 180.0,
+      "solved": 13,
+      "submissions": 27,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1955,6 +1957,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 20.0
+        },
+        "oxvg-structural-selector-preservation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 40.0
         }
       },
       "place": 1
