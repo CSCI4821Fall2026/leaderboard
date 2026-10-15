@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:57:14+00:00",
+  "updated": "2026-10-15T23:08:51+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -865,11 +865,13 @@
       "desc": "Add single-active-consumer semantics, consumer priority selection, cancel notifications, and lifecycle tracking to virtual transports.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "kombu-virtual-queue-dead-lettering",
@@ -2024,9 +2026,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 115.0,
-      "solved": 12,
-      "submissions": 18,
+      "points": 125.0,
+      "solved": 13,
+      "submissions": 19,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2103,6 +2105,12 @@
           "attempts": 1
         },
         "kysely-window-grouping-helpers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "kombu-single-active-consumer-priority": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
