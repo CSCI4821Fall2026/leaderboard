@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T05:03:46+00:00",
+  "updated": "2026-10-15T05:11:15+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -690,13 +690,14 @@
       "desc": "Add a deterministic CookieStore with modern Set-Cookie parsing, cookie eviction, and request header handling.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "httpx-multipart-response-parsing",
@@ -1853,7 +1854,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 215.0,
+      "points": 210.0,
       "solved": 14,
       "submissions": 32,
       "tasks": {
@@ -1927,7 +1928,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "anko-typed-variable-bindings": {
           "reward": 1,
@@ -1994,11 +1995,17 @@
     },
     {
       "name": "salee036-sys",
-      "points": 5.0,
-      "solved": 1,
-      "submissions": 1,
+      "points": 10.0,
+      "solved": 2,
+      "submissions": 2,
       "tasks": {
         "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "httpx-deterministic-cookie-store": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
