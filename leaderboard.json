@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T04:25:08+00:00",
+  "updated": "2026-10-15T04:37:24+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -934,11 +934,13 @@
       "desc": "Tracking modifiers should distinguish changes to specific relation pairs, not just trait-level additions and removals.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 40.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 40.0,
+      "next_points": 20.0
     },
     {
       "id": "koota-query-predicates",
@@ -1062,13 +1064,14 @@
       "desc": "Add the remaining rolling window methods to Expr and Series with consistent validation and backend delegation.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "numba-stencil-boundary-modes",
@@ -1850,9 +1853,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 180.0,
-      "solved": 13,
-      "submissions": 27,
+      "points": 215.0,
+      "solved": 14,
+      "submissions": 29,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1918,7 +1921,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "httpx-deterministic-cookie-store": {
           "reward": 1,
@@ -1963,9 +1966,34 @@
           "attempts": 1,
           "rank": 1,
           "points": 40.0
+        },
+        "koota-pair-relation-tracking": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 40.0
+        },
+        "prometheus-transactional-reload-status": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
+    },
+    {
+      "name": "salee036-sys",
+      "points": 5.0,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        }
+      },
+      "place": 2
     }
   ]
 }
