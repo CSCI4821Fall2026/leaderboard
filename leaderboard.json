@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T04:47:56+00:00",
+  "updated": "2026-10-15T02:31:39+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1754,11 +1754,13 @@
       "desc": "Add a persistent cache so Vulture can reuse unchanged analysis across runs.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "xingjianwang001"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "wasmi-trap-coredumps",
@@ -1844,9 +1846,9 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 100.0,
-      "solved": 10,
-      "submissions": 23,
+      "points": 120.0,
+      "solved": 11,
+      "submissions": 24,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1935,6 +1937,12 @@
         "mashumaro-flattened-dataclass-fields": {
           "reward": 0,
           "attempts": 1
+        },
+        "vulture-persistent-analysis-cache": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 1
