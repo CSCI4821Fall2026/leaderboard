@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:22:46+00:00",
+  "updated": "2026-10-15T23:31:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -70,13 +70,14 @@
       "desc": "Add load-only alias support to name mapping so fields can resolve from alternate input keys.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "aiomonitor-task-snapshots-diff",
@@ -1348,13 +1349,14 @@
       "desc": "Add typed blend range objects, persist them on layers, and apply blend-if during compositing.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "pwntools-tube-multiplexing",
@@ -1430,13 +1432,14 @@
       "desc": "Add a Validated container that accumulates errors while preserving standard container APIs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "scc-bounded-memory-spilling",
@@ -2030,7 +2033,7 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 145.0,
+      "points": 130.0,
       "solved": 15,
       "submissions": 22,
       "tasks": {
@@ -2038,7 +2041,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "bandit-interprocedural-taint-checks": {
           "reward": 1,
@@ -2084,7 +2087,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "cattrs-partial-structuring-recovery": {
           "reward": 1,
@@ -2102,7 +2105,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "mnamer-daemon-watch-lifecycle": {
           "reward": 0,
@@ -2137,9 +2140,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 30.8333,
-      "solved": 4,
-      "submissions": 6,
+      "points": 45.8333,
+      "solved": 7,
+      "submissions": 9,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2168,6 +2171,24 @@
           "attempts": 1,
           "rank": 1,
           "points": 20.0
+        },
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "adaptix-name-mapping-aliases": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
