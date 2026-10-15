@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T02:31:39+00:00",
+  "updated": "2026-10-15T02:53:27+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1848,7 +1848,7 @@
       "name": "xingjianwang001",
       "points": 120.0,
       "solved": 11,
-      "submissions": 24,
+      "submissions": 25,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -1943,6 +1943,10 @@
           "attempts": 1,
           "rank": 1,
           "points": 20.0
+        },
+        "optique-conditional-option-dependencies": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
