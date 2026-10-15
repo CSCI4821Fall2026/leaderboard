@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:15:47+00:00",
+  "updated": "2026-10-15T22:24:00+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1676,11 +1676,13 @@
       "desc": "Add in-place conversion helpers between standard tables, inline tables, dotted keys, and super tables while preserving comments and round-trip integrity.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "true-myth-iterable-collection-combinators",
@@ -1692,11 +1694,13 @@
       "desc": "Add iterable-aware sequence, traverse, zip, filtering, and task combinators across Maybe, Result, Task, and toolbelt APIs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "ts-pattern-match-each",
@@ -2008,9 +2012,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 45.0,
-      "solved": 5,
-      "submissions": 7,
+      "points": 65.0,
+      "solved": 7,
+      "submissions": 10,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2044,7 +2048,19 @@
         },
         "abs-stepped-slices": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
+        },
+        "true-myth-iterable-collection-combinators": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "tomlkit-toml-table-converters": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 2
