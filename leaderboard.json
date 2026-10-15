@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:39:32+00:00",
+  "updated": "2026-10-15T22:48:09+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -879,11 +879,13 @@
       "desc": "Add dead-letter routing, TTL expiry, and max-length overflow handling to the virtual transport layer.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "koota-composite-trait-aspects",
@@ -1520,11 +1522,13 @@
       "desc": "Add safe bulk import checkpoints, invariant validation, and rollback-on-failure behavior.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "superjson-error-stack-serialization",
@@ -2016,9 +2020,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 85.0,
-      "solved": 9,
-      "submissions": 14,
+      "points": 95.0,
+      "solved": 10,
+      "submissions": 15,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2077,15 +2081,21 @@
           "attempts": 2,
           "rank": 1,
           "points": 10.0
+        },
+        "sqlite-utils-safe-import-checkpoints": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 2
     },
     {
       "name": "salee036-sys",
-      "points": 10.8333,
-      "solved": 3,
-      "submissions": 5,
+      "points": 30.8333,
+      "solved": 4,
+      "submissions": 6,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2108,6 +2118,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "kombu-virtual-queue-dead-lettering": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 3
