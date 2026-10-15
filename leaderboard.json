@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:17:05+00:00",
+  "updated": "2026-10-15T23:22:46+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1480,11 +1480,13 @@
       "desc": "Add a DurationEncoder, duration selector, and duration routing in TableVectorizer.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "sqlfmt-create-table-ddl-formatting",
@@ -2028,9 +2030,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 135.0,
-      "solved": 14,
-      "submissions": 21,
+      "points": 145.0,
+      "solved": 15,
+      "submissions": 22,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2119,6 +2121,12 @@
           "points": 10.0
         },
         "valibot-recursive-schema-composition": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "skrub-duration-encoding": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
