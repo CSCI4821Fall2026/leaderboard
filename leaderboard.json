@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T00:01:48+00:00",
+  "updated": "2026-10-16T00:17:16+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -490,14 +490,15 @@
       "desc": "Add runtime Deprecation, Sunset, and Link headers plus OpenAPI metadata and tracking middleware for deprecated routes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "xingjianwang001",
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "fastapi-implicit-head-options",
@@ -1898,7 +1899,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 190.8333,
+      "points": 189.1667,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1928,7 +1929,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "cliffy-config-file-parsing": {
           "reward": 1,
@@ -2039,7 +2040,7 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 115.0,
+      "points": 113.3333,
       "solved": 15,
       "submissions": 22,
       "tasks": {
@@ -2059,7 +2060,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "mashumaro-flattened-dataclass-fields": {
           "reward": 1,
@@ -2146,9 +2147,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 85.8333,
-      "solved": 12,
-      "submissions": 14,
+      "points": 89.1667,
+      "solved": 13,
+      "submissions": 15,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2225,6 +2226,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
         }
       },
       "place": 3
