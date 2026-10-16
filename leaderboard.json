@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T00:33:13+00:00",
+  "updated": "2026-10-16T03:26:06+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1058,11 +1058,13 @@
       "desc": "Add daemon watch validation, state tracking, logging, and lifecycle commands with non-blocking run-once processing.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "mobly-grouped-test-barriers",
@@ -2041,9 +2043,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 108.3333,
-      "solved": 15,
-      "submissions": 22,
+      "points": 118.3333,
+      "solved": 16,
+      "submissions": 23,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2116,8 +2118,10 @@
           "points": 5.0
         },
         "mnamer-daemon-watch-lifecycle": {
-          "reward": 0,
-          "attempts": 2
+          "reward": 1,
+          "attempts": 3,
+          "rank": 1,
+          "points": 10.0
         },
         "kysely-window-grouping-helpers": {
           "reward": 1,
