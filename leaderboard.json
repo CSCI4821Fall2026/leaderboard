@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T05:05:27+00:00",
+  "updated": "2026-10-16T05:30:47+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1386,11 +1386,13 @@
       "desc": "Add a TubeMultiplexer and MuxChannel API for multiple bidirectional logical channels over one tube, with flow control and close propagation.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "python-statemachine-state-data-scoping",
@@ -1914,9 +1916,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 208.3333,
-      "solved": 22,
-      "submissions": 34,
+      "points": 228.3333,
+      "solved": 23,
+      "submissions": 35,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2065,6 +2067,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 10.0
+        },
+        "pwntools-tube-multiplexing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 1
