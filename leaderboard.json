@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T09:49:41+00:00",
+  "updated": "2026-10-16T10:25:44+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1924,7 +1924,7 @@
       "name": "umnfoxiny7",
       "points": 268.3333,
       "solved": 26,
-      "submissions": 39,
+      "submissions": 40,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2068,7 +2068,7 @@
         },
         "superjson-error-stack-serialization": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         },
         "kombu-virtual-queue-dead-lettering": {
           "reward": 1,
