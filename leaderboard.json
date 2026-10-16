@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T19:55:56+00:00",
+  "updated": "2026-10-16T20:21:20+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1938,7 +1938,7 @@
       "name": "umnfoxiny7",
       "points": 318.3333,
       "solved": 30,
-      "submissions": 46,
+      "submissions": 47,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2122,7 +2122,7 @@
         },
         "awilix-async-container-initialization": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "happy-dom-abort-pending-body-reads": {
           "reward": 1,
