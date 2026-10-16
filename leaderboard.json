@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T04:12:55+00:00",
+  "updated": "2026-10-16T04:21:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1401,11 +1401,13 @@
       "desc": "Add per-state scoped data ownership with lifecycle resets, callback injection, history restoration, and validation.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "query-persist-restored-query-state",
@@ -1910,6 +1912,149 @@
   ],
   "entries": [
     {
+      "name": "umnfoxiny7",
+      "points": 198.3333,
+      "solved": 21,
+      "submissions": 31,
+      "tasks": {
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "bandit-interprocedural-taint-checks": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 10.0
+        },
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 3.3333333333333335
+        },
+        "mashumaro-flattened-dataclass-fields": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "dasel-html-document-format": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "abs-stepped-slices": {
+          "reward": 0,
+          "attempts": 3
+        },
+        "true-myth-iterable-collection-combinators": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "tomlkit-toml-table-converters": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 5.0
+        },
+        "sqlite-utils-safe-import-checkpoints": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "adaptix-name-mapping-aliases": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "mnamer-daemon-watch-lifecycle": {
+          "reward": 1,
+          "attempts": 3,
+          "rank": 1,
+          "points": 10.0
+        },
+        "kysely-window-grouping-helpers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "kombu-single-active-consumer-priority": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "valibot-recursive-schema-composition": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "skrub-duration-encoding": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "bandit-structured-nosec-directives": {
+          "reward": 0,
+          "attempts": 3
+        },
+        "mobly-grouped-test-barriers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "ipython-session-bundle-replay": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "igel-persist-feature-schema": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "httpx-streaming-json-iteration": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "python-statemachine-state-data-scoping": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        }
+      },
+      "place": 1
+    },
+    {
       "name": "xingjianwang001",
       "points": 188.3333,
       "solved": 14,
@@ -2046,143 +2191,6 @@
         "termenv-preserve-ansi-resets": {
           "reward": 0,
           "attempts": 1
-        }
-      },
-      "place": 1
-    },
-    {
-      "name": "umnfoxiny7",
-      "points": 178.3333,
-      "solved": 20,
-      "submissions": 29,
-      "tasks": {
-        "psd-tools-blend-range-api": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "bandit-interprocedural-taint-checks": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 10.0
-        },
-        "fastapi-deprecation-response-headers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 3.3333333333333335
-        },
-        "mashumaro-flattened-dataclass-fields": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "dasel-html-document-format": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "abs-stepped-slices": {
-          "reward": 0,
-          "attempts": 3
-        },
-        "true-myth-iterable-collection-combinators": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "tomlkit-toml-table-converters": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "returns-validated-error-accumulation": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "cattrs-partial-structuring-recovery": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 5.0
-        },
-        "sqlite-utils-safe-import-checkpoints": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "adaptix-name-mapping-aliases": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "mnamer-daemon-watch-lifecycle": {
-          "reward": 1,
-          "attempts": 3,
-          "rank": 1,
-          "points": 10.0
-        },
-        "kysely-window-grouping-helpers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "kombu-single-active-consumer-priority": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "valibot-recursive-schema-composition": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "skrub-duration-encoding": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "bandit-structured-nosec-directives": {
-          "reward": 0,
-          "attempts": 2
-        },
-        "mobly-grouped-test-barriers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "ipython-session-bundle-replay": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "igel-persist-feature-schema": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
-        },
-        "httpx-streaming-json-iteration": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
         }
       },
       "place": 2
