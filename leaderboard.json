@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T11:40:07+00:00",
+  "updated": "2026-10-16T14:14:37+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2404,7 +2404,7 @@
       "name": "mahin-11",
       "points": 2.5,
       "solved": 1,
-      "submissions": 3,
+      "submissions": 4,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2415,6 +2415,10 @@
           "attempts": 1,
           "rank": 4,
           "points": 2.5
+        },
+        "drizzle-orm-window-function-builders": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 5
