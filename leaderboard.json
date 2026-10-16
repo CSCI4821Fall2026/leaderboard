@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T09:20:20+00:00",
+  "updated": "2026-10-16T09:42:11+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -89,11 +89,13 @@
       "desc": "Add point-in-time task snapshots with interactive inspection, diffing, deletion, and web/CLI access.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "anko-default-function-arguments",
@@ -1918,9 +1920,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 248.3333,
-      "solved": 24,
-      "submissions": 37,
+      "points": 258.3333,
+      "solved": 25,
+      "submissions": 38,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2077,6 +2079,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 20.0
+        },
+        "aiomonitor-task-snapshots-diff": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
