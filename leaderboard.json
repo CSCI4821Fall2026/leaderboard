@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T03:41:17+00:00",
+  "updated": "2026-10-16T03:49:45+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -791,11 +791,13 @@
       "desc": "Add `.ipybundle` recording, validation, and replay APIs for IPython sessions.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "katex-multicolumn-array-spans",
@@ -2045,9 +2047,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 128.3333,
-      "solved": 17,
-      "submissions": 25,
+      "points": 138.3333,
+      "solved": 18,
+      "submissions": 27,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2151,9 +2153,15 @@
         },
         "bandit-structured-nosec-directives": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "mobly-grouped-test-barriers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "ipython-session-bundle-replay": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
@@ -2298,6 +2306,19 @@
         }
       },
       "place": 5
+    },
+    {
+      "name": "mahin-11",
+      "points": 0,
+      "solved": 0,
+      "submissions": 1,
+      "tasks": {
+        "obsidian-linter-auto-table-of-contents": {
+          "reward": 0,
+          "attempts": 1
+        }
+      },
+      "place": 6
     }
   ]
 }
