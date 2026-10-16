@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T14:52:47+00:00",
+  "updated": "2026-10-16T17:17:21+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1922,11 +1922,13 @@
       "desc": "Add orderedmap and Starlark JSONPath query APIs with selectors, filters, and syntax errors.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "mahin-11"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     }
   ],
   "entries": [
@@ -2379,9 +2381,9 @@
     },
     {
       "name": "mahin-11",
-      "points": 12.5,
-      "solved": 2,
-      "submissions": 8,
+      "points": 22.5,
+      "solved": 3,
+      "submissions": 9,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2402,6 +2404,12 @@
         "gql-incremental-graphql-delivery": {
           "reward": 0,
           "attempts": 3
+        },
+        "ytt-jsonpath-query-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 4
