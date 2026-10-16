@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T03:57:16+00:00",
+  "updated": "2026-10-16T04:04:50+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -760,11 +760,13 @@
       "desc": "Persist and reuse the fitted feature schema so evaluation, prediction, serving, and export all apply the same canonicalized inputs.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "ink-grid-box-layout",
@@ -2048,9 +2050,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 138.3333,
-      "solved": 18,
-      "submissions": 27,
+      "points": 158.3333,
+      "solved": 19,
+      "submissions": 28,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2167,6 +2169,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "igel-persist-feature-schema": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 2
