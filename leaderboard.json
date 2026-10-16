@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T23:54:12+00:00",
+  "updated": "2026-10-16T00:01:48+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1771,13 +1771,14 @@
       "desc": "Add first-class recursive schema composition with `Recur`, `recursive(...)`, and `recursiveAsync(...)` wrappers.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "vitest-duration-sharding",
@@ -2038,7 +2039,7 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 120.0,
+      "points": 115.0,
       "solved": 15,
       "submissions": 22,
       "tasks": {
@@ -2132,7 +2133,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "skrub-duration-encoding": {
           "reward": 1,
@@ -2145,9 +2146,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 80.8333,
-      "solved": 11,
-      "submissions": 13,
+      "points": 85.8333,
+      "solved": 12,
+      "submissions": 14,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2214,6 +2215,12 @@
           "points": 5.0
         },
         "httpx-multipart-response-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "valibot-recursive-schema-composition": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
