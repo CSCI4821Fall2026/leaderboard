@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T20:21:20+00:00",
+  "updated": "2026-10-16T21:08:34+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2385,7 +2385,7 @@
       "name": "mahin-11",
       "points": 32.5,
       "solved": 4,
-      "submissions": 12,
+      "submissions": 13,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2415,7 +2415,7 @@
         },
         "bandit-structured-nosec-directives": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         },
         "boa-hierarchical-evaluation-cancellation": {
           "reward": 1,
