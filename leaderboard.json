@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T04:57:25+00:00",
+  "updated": "2026-10-16T05:05:27+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -896,13 +896,14 @@
       "desc": "Add dead-letter routing, TTL expiry, and max-length overflow handling to the virtual transport layer.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "umnfoxiny7"
       ],
-      "points_each": 20.0,
-      "next_points": 10.0
+      "points_each": 10.0,
+      "next_points": 6.6667
     },
     {
       "id": "koota-composite-trait-aspects",
@@ -1913,9 +1914,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 198.3333,
-      "solved": 21,
-      "submissions": 33,
+      "points": 208.3333,
+      "solved": 22,
+      "submissions": 34,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2058,6 +2059,12 @@
         "superjson-error-stack-serialization": {
           "reward": 0,
           "attempts": 1
+        },
+        "kombu-virtual-queue-dead-lettering": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 10.0
         }
       },
       "place": 1
@@ -2205,7 +2212,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 93.3333,
+      "points": 83.3333,
       "solved": 14,
       "submissions": 16,
       "tasks": {
@@ -2235,7 +2242,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 20.0
+          "points": 10.0
         },
         "psd-tools-blend-range-api": {
           "reward": 1,
