@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T00:25:19+00:00",
+  "updated": "2026-10-16T00:33:13+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2247,7 +2247,7 @@
       "name": "benpullis",
       "points": 5.8333,
       "solved": 2,
-      "submissions": 3,
+      "submissions": 4,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2260,6 +2260,10 @@
           "attempts": 2,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "effect-sse-httpapi-streaming": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 4
