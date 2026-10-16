@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T03:33:53+00:00",
+  "updated": "2026-10-16T03:41:17+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1076,11 +1076,13 @@
       "desc": "Add grouped execution phases with explicit synchronization barriers and per-group setup and teardown.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "narwhals-rolling-window-suite",
@@ -2043,9 +2045,9 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 118.3333,
-      "solved": 16,
-      "submissions": 24,
+      "points": 128.3333,
+      "solved": 17,
+      "submissions": 25,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2150,6 +2152,12 @@
         "bandit-structured-nosec-directives": {
           "reward": 0,
           "attempts": 1
+        },
+        "mobly-grouped-test-barriers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 2
