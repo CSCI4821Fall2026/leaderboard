@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T04:28:39+00:00",
+  "updated": "2026-10-16T04:57:25+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1915,7 +1915,7 @@
       "name": "umnfoxiny7",
       "points": 198.3333,
       "solved": 21,
-      "submissions": 32,
+      "submissions": 33,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2052,6 +2052,10 @@
           "points": 20.0
         },
         "textual-kitty-key-phases": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "superjson-error-stack-serialization": {
           "reward": 0,
           "attempts": 1
         }
