@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T09:12:41+00:00",
+  "updated": "2026-10-16T09:20:20+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1685,11 +1685,13 @@
       "desc": "Add full Kitty keyboard phase handling and stable fallback key metadata for keys and shortcuts.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "textual-richlog-follow-state",
@@ -1916,9 +1918,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 228.3333,
-      "solved": 23,
-      "submissions": 36,
+      "points": 248.3333,
+      "solved": 24,
+      "submissions": 37,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2055,8 +2057,10 @@
           "points": 20.0
         },
         "textual-kitty-key-phases": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 20.0
         },
         "superjson-error-stack-serialization": {
           "reward": 0,
