@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T10:25:44+00:00",
+  "updated": "2026-10-16T10:31:02+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -276,11 +276,13 @@
       "desc": "Add async option fetching with caching, retries, debouncing, and loading state to AutocompletePrompt.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "claude-code-by-agents-recursive-delegation",
@@ -1707,11 +1709,13 @@
       "desc": "Restore RichLog follow-mode parity with Log and preserve expand reflow behavior for justified writes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "tomlkit-toml-table-converters",
@@ -1922,9 +1926,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 268.3333,
-      "solved": 26,
-      "submissions": 40,
+      "points": 298.3333,
+      "solved": 28,
+      "submissions": 43,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2093,6 +2097,22 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "textual-richlog-follow-state": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "clack-async-autocomplete-options": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "awilix-async-container-initialization": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
