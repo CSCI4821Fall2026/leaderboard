@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T00:17:16+00:00",
+  "updated": "2026-10-16T00:25:19+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -989,13 +989,14 @@
       "desc": "Add grouped aggregation clauses, window frame builders, null-handling modifiers, and related SQL function helpers.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "salee036-sys"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "langchain-request-coalescing",
@@ -2040,7 +2041,7 @@
     },
     {
       "name": "umnfoxiny7",
-      "points": 113.3333,
+      "points": 108.3333,
       "solved": 15,
       "submissions": 22,
       "tasks": {
@@ -2122,7 +2123,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "kombu-single-active-consumer-priority": {
           "reward": 1,
@@ -2147,9 +2148,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 89.1667,
-      "solved": 13,
-      "submissions": 15,
+      "points": 94.1667,
+      "solved": 14,
+      "submissions": 16,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2232,6 +2233,12 @@
           "attempts": 1,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "kysely-window-grouping-helpers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
