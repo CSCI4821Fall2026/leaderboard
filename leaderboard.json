@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T14:41:30+00:00",
+  "updated": "2026-10-16T14:52:47+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2381,7 +2381,7 @@
       "name": "mahin-11",
       "points": 12.5,
       "solved": 2,
-      "submissions": 7,
+      "submissions": 8,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2401,7 +2401,7 @@
         },
         "gql-incremental-graphql-delivery": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         }
       },
       "place": 4
