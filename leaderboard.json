@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T14:14:37+00:00",
+  "updated": "2026-10-16T14:22:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -380,11 +380,13 @@
       "desc": "Add typed query-builder helpers for SQL window functions, named windows, and frame specs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "mahin-11"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "dynamodb-toolbox-conditional-attribute-requirements",
@@ -2376,6 +2378,31 @@
       "place": 3
     },
     {
+      "name": "mahin-11",
+      "points": 12.5,
+      "solved": 2,
+      "submissions": 5,
+      "tasks": {
+        "obsidian-linter-auto-table-of-contents": {
+          "reward": 0,
+          "attempts": 2
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        },
+        "drizzle-orm-window-function-builders": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 4
+    },
+    {
       "name": "benpullis",
       "points": 5.0,
       "solved": 2,
@@ -2394,29 +2421,6 @@
           "points": 2.5
         },
         "effect-sse-httpapi-streaming": {
-          "reward": 0,
-          "attempts": 1
-        }
-      },
-      "place": 4
-    },
-    {
-      "name": "mahin-11",
-      "points": 2.5,
-      "solved": 1,
-      "submissions": 4,
-      "tasks": {
-        "obsidian-linter-auto-table-of-contents": {
-          "reward": 0,
-          "attempts": 2
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 4,
-          "points": 2.5
-        },
-        "drizzle-orm-window-function-builders": {
           "reward": 0,
           "attempts": 1
         }
