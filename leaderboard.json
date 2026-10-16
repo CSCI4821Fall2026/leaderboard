@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T11:00:07+00:00",
+  "updated": "2026-10-16T11:07:46+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1677,11 +1677,13 @@
       "desc": "Split report output into per-launcher files with template expansion, launcher-safe filenames, and per-launcher summaries.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "textual-kitty-key-phases",
@@ -1928,9 +1930,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 308.3333,
-      "solved": 29,
-      "submissions": 44,
+      "points": 318.3333,
+      "solved": 30,
+      "submissions": 45,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2117,6 +2119,12 @@
           "attempts": 1
         },
         "happy-dom-abort-pending-body-reads": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "testem-per-launcher-reports": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
