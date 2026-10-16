@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T10:31:02+00:00",
+  "updated": "2026-10-16T11:00:07+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -644,11 +644,13 @@
       "desc": "Ensure interrupted request and response body reads, formData parsing, and discarded timers abort cleanly during shutdown.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "happy-dom-deterministic-intersectionobserver",
@@ -1926,9 +1928,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 298.3333,
-      "solved": 28,
-      "submissions": 43,
+      "points": 308.3333,
+      "solved": 29,
+      "submissions": 44,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2113,6 +2115,12 @@
         "awilix-async-container-initialization": {
           "reward": 0,
           "attempts": 1
+        },
+        "happy-dom-abort-pending-body-reads": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
