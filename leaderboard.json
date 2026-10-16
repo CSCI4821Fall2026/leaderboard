@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T03:49:45+00:00",
+  "updated": "2026-10-16T03:57:16+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -704,15 +704,16 @@
       "desc": "Add a deterministic CookieStore with modern Set-Cookie parsing, cookie eviction, and request header handling.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 3,
+      "solvers": 4,
       "available": true,
       "solved_by": [
         "xingjianwang001",
         "salee036-sys",
-        "benpullis"
+        "benpullis",
+        "mahin-11"
       ],
-      "points_each": 3.3333,
-      "next_points": 2.5
+      "points_each": 2.5,
+      "next_points": 2.0
     },
     {
       "id": "httpx-multipart-response-parsing",
@@ -1906,7 +1907,7 @@
   "entries": [
     {
       "name": "xingjianwang001",
-      "points": 189.1667,
+      "points": 188.3333,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -1980,7 +1981,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 3.3333333333333335
+          "points": 2.5
         },
         "anko-typed-variable-bindings": {
           "reward": 1,
@@ -2172,7 +2173,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 94.1667,
+      "points": 93.3333,
       "solved": 14,
       "submissions": 16,
       "tasks": {
@@ -2186,7 +2187,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 3.3333333333333335
+          "points": 2.5
         },
         "ink-grid-box-layout": {
           "reward": 0,
@@ -2269,7 +2270,7 @@
     },
     {
       "name": "benpullis",
-      "points": 5.8333,
+      "points": 5.0,
       "solved": 2,
       "submissions": 4,
       "tasks": {
@@ -2283,7 +2284,7 @@
           "reward": 1,
           "attempts": 2,
           "rank": 3,
-          "points": 3.3333333333333335
+          "points": 2.5
         },
         "effect-sse-httpapi-streaming": {
           "reward": 0,
@@ -2291,6 +2292,25 @@
         }
       },
       "place": 4
+    },
+    {
+      "name": "mahin-11",
+      "points": 2.5,
+      "solved": 1,
+      "submissions": 2,
+      "tasks": {
+        "obsidian-linter-auto-table-of-contents": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        }
+      },
+      "place": 5
     },
     {
       "name": "mai00082",
@@ -2303,19 +2323,6 @@
           "attempts": 1,
           "rank": 3,
           "points": 2.5
-        }
-      },
-      "place": 5
-    },
-    {
-      "name": "mahin-11",
-      "points": 0,
-      "solved": 0,
-      "submissions": 1,
-      "tasks": {
-        "obsidian-linter-auto-table-of-contents": {
-          "reward": 0,
-          "attempts": 1
         }
       },
       "place": 6
