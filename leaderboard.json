@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T00:53:33+00:00",
+  "updated": "2026-10-17T02:33:10+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1940,7 +1940,7 @@
       "name": "umnfoxiny7",
       "points": 318.3333,
       "solved": 30,
-      "submissions": 47,
+      "submissions": 48,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2140,7 +2140,7 @@
         },
         "query-persist-restored-query-state": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         }
       },
       "place": 1
