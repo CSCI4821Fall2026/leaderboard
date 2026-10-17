@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T21:08:34+00:00",
+  "updated": "2026-10-17T00:53:33+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -432,11 +432,13 @@
       "desc": "Add typed Server-Sent Events streaming endpoints, encoders/decoders, and client handling to HttpApi.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 40.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 40.0,
+      "next_points": 20.0
     },
     {
       "id": "eicrud-keyset-pagination-cursor",
@@ -2382,6 +2384,33 @@
       "place": 3
     },
     {
+      "name": "benpullis",
+      "points": 45.0,
+      "solved": 3,
+      "submissions": 5,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 3,
+          "points": 2.5
+        },
+        "effect-sse-httpapi-streaming": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 40.0
+        }
+      },
+      "place": 4
+    },
+    {
       "name": "mahin-11",
       "points": 32.5,
       "solved": 4,
@@ -2422,31 +2451,6 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
-        }
-      },
-      "place": 4
-    },
-    {
-      "name": "benpullis",
-      "points": 5.0,
-      "solved": 2,
-      "submissions": 4,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 4,
-          "points": 2.5
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 3,
-          "points": 2.5
-        },
-        "effect-sse-httpapi-streaming": {
-          "reward": 0,
-          "attempts": 1
         }
       },
       "place": 5
