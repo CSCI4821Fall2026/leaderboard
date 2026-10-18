@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T20:15:30+00:00",
+  "updated": "2026-10-18T20:23:27+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -54,11 +54,13 @@
       "desc": "Add a configurable lint rule that enforces pinned versions for action and reusable workflow references.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "adaptix-name-mapping-aliases",
@@ -961,11 +963,13 @@
       "desc": "Add snapshot, rollback, and diff APIs for entities and worlds, including registry-based trait and relation serialization.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "koota-pair-relation-tracking",
@@ -1944,9 +1948,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 348.3333,
-      "solved": 33,
-      "submissions": 51,
+      "points": 368.3333,
+      "solved": 35,
+      "submissions": 53,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2161,6 +2165,18 @@
           "points": 10.0
         },
         "yjs-map-conflict-detection": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "actionlint-action-pinning-lint": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "koota-entity-snapshot-rollback": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
