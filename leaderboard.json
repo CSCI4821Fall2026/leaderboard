@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T02:33:10+00:00",
+  "updated": "2026-10-18T19:48:30+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1553,11 +1553,13 @@
       "desc": "Add parsing and formatting support for BigQuery pipe syntax queries without changing traditional SQL formatting.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "sqlite-utils-safe-import-checkpoints",
@@ -1938,9 +1940,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 318.3333,
-      "solved": 30,
-      "submissions": 48,
+      "points": 328.3333,
+      "solved": 31,
+      "submissions": 49,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2141,6 +2143,12 @@
         "query-persist-restored-query-state": {
           "reward": 0,
           "attempts": 2
+        },
+        "sql-formatter-bigquery-pipe-formatting": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
