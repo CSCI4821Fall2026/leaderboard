@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T19:48:30+00:00",
+  "updated": "2026-10-18T20:07:51+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -618,11 +618,13 @@
       "desc": "Implement per-artifact retries for uploads, artifactory, and blobs while recording deterministic publish attempt history.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "gql-incremental-graphql-delivery",
@@ -1940,9 +1942,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 328.3333,
-      "solved": 31,
-      "submissions": 49,
+      "points": 338.3333,
+      "solved": 32,
+      "submissions": 50,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2145,6 +2147,12 @@
           "attempts": 2
         },
         "sql-formatter-bigquery-pipe-formatting": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "goreleaser-retry-publish-auditing": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
