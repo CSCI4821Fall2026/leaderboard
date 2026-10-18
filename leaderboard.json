@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T20:07:51+00:00",
+  "updated": "2026-10-18T20:15:30+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1914,11 +1914,13 @@
       "desc": "Add strict, deterministic conflict detection for Y.Map key writes with collect and error policies.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "umnfoxiny7"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "ytt-jsonpath-query-api",
@@ -1942,9 +1944,9 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 338.3333,
-      "solved": 32,
-      "submissions": 50,
+      "points": 348.3333,
+      "solved": 33,
+      "submissions": 51,
       "tasks": {
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2153,6 +2155,12 @@
           "points": 10.0
         },
         "goreleaser-retry-publish-auditing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "yjs-map-conflict-detection": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
