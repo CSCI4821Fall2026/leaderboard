@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T22:07:17+00:00",
+  "updated": "2026-10-19T22:14:55+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1646,11 +1646,13 @@
       "desc": "Add destructuring bindings for `:=` in arrays, maps, and function parameters.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "termenv-preserve-ansi-resets",
@@ -2331,6 +2333,63 @@
       "place": 2
     },
     {
+      "name": "benpullis",
+      "points": 90.0,
+      "solved": 8,
+      "submissions": 10,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 3,
+          "points": 2.5
+        },
+        "effect-sse-httpapi-streaming": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 40.0
+        },
+        "textual-richlog-follow-state": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "koota-pair-relation-tracking": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 20.0
+        },
+        "aiomonitor-task-snapshots-diff": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "cliffy-config-file-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "tengo-destructuring-bindings": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 3
+    },
+    {
       "name": "salee036-sys",
       "points": 83.3333,
       "solved": 14,
@@ -2419,57 +2478,6 @@
           "points": 3.3333333333333335
         },
         "kysely-window-grouping-helpers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        }
-      },
-      "place": 3
-    },
-    {
-      "name": "benpullis",
-      "points": 80.0,
-      "solved": 7,
-      "submissions": 9,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 4,
-          "points": 2.5
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 3,
-          "points": 2.5
-        },
-        "effect-sse-httpapi-streaming": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 40.0
-        },
-        "textual-richlog-follow-state": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "koota-pair-relation-tracking": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 20.0
-        },
-        "aiomonitor-task-snapshots-diff": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "cliffy-config-file-parsing": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
