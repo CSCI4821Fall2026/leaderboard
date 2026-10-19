@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T14:11:14+00:00",
+  "updated": "2026-10-19T14:18:51+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -91,13 +91,14 @@
       "desc": "Add point-in-time task snapshots with interactive inspection, diffing, deletion, and web/CLI access.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "anko-default-function-arguments",
@@ -1950,7 +1951,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 363.3333,
+      "points": 358.3333,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2114,7 +2115,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "ofetch-per-origin-circuit-breaker": {
           "reward": 1,
@@ -2427,9 +2428,9 @@
     },
     {
       "name": "benpullis",
-      "points": 70.0,
-      "solved": 5,
-      "submissions": 7,
+      "points": 75.0,
+      "solved": 6,
+      "submissions": 8,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2460,6 +2461,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 20.0
+        },
+        "aiomonitor-task-snapshots-diff": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
