@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T04:52:16+00:00",
+  "updated": "2026-10-19T14:11:14+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -981,13 +981,14 @@
       "desc": "Tracking modifiers should distinguish changes to specific relation pairs, not just trait-level additions and removals.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "benpullis"
       ],
-      "points_each": 40.0,
-      "next_points": 20.0
+      "points_each": 20.0,
+      "next_points": 13.3333
     },
     {
       "id": "koota-query-predicates",
@@ -2188,7 +2189,7 @@
     },
     {
       "name": "xingjianwang001",
-      "points": 188.3333,
+      "points": 168.3333,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -2306,7 +2307,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 40.0
+          "points": 20.0
         },
         "prometheus-transactional-reload-status": {
           "reward": 0,
@@ -2426,9 +2427,9 @@
     },
     {
       "name": "benpullis",
-      "points": 50.0,
-      "solved": 4,
-      "submissions": 6,
+      "points": 70.0,
+      "solved": 5,
+      "submissions": 7,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2453,6 +2454,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "koota-pair-relation-tracking": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 20.0
         }
       },
       "place": 4
