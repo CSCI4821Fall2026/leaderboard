@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T20:23:27+00:00",
+  "updated": "2026-10-19T04:52:16+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1727,13 +1727,14 @@
       "desc": "Restore RichLog follow-mode parity with Log and preserve expand reflow behavior for justified writes.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "tomlkit-toml-table-converters",
@@ -1948,7 +1949,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 368.3333,
+      "points": 363.3333,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2124,7 +2125,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "clack-async-autocomplete-options": {
           "reward": 1,
@@ -2425,9 +2426,9 @@
     },
     {
       "name": "benpullis",
-      "points": 45.0,
-      "solved": 3,
-      "submissions": 5,
+      "points": 50.0,
+      "solved": 4,
+      "submissions": 6,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2446,6 +2447,12 @@
           "attempts": 2,
           "rank": 1,
           "points": 40.0
+        },
+        "textual-richlog-follow-state": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
