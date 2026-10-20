@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:41:21+00:00",
+  "updated": "2026-10-20T18:49:09+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1905,11 +1905,13 @@
       "desc": "Add coordinated capture, restore, diff, and serialization for multi-module memory snapshots.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "yaegi-go-embed-directives",
@@ -2347,9 +2349,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 111.6667,
-      "solved": 17,
-      "submissions": 19,
+      "points": 121.6667,
+      "solved": 18,
+      "submissions": 20,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2452,6 +2454,12 @@
           "points": 10.0
         },
         "dynamodb-toolbox-conditional-attribute-requirements": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "wazero-multi-module-snapshots": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
