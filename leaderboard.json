@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T23:17:02+00:00",
+  "updated": "2026-10-20T23:35:51+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2488,7 +2488,7 @@
       "name": "benpullis",
       "points": 103.3333,
       "solved": 10,
-      "submissions": 18,
+      "submissions": 19,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2556,7 +2556,7 @@
         },
         "meriyah-explicit-resource-declarations": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         }
       },
       "place": 4
