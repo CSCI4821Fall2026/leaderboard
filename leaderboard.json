@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T19:02:55+00:00",
+  "updated": "2026-10-20T22:13:33+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2488,7 +2488,7 @@
       "name": "benpullis",
       "points": 103.3333,
       "solved": 10,
-      "submissions": 13,
+      "submissions": 14,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2549,6 +2549,10 @@
           "attempts": 2,
           "rank": 1,
           "points": 10.0
+        },
+        "testem-bail-on-test-failure": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 4
