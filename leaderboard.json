@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:33:19+00:00",
+  "updated": "2026-10-20T18:41:21+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -406,11 +406,13 @@
       "desc": "Add `requiredIf`-based conditional attribute enforcement across schema validation, parsing, updates, and JSON Schema export.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "dynamodb-toolbox-lazy-recursive-schemas",
@@ -2344,79 +2346,10 @@
       "place": 2
     },
     {
-      "name": "benpullis",
-      "points": 103.3333,
-      "solved": 10,
-      "submissions": 13,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 4,
-          "points": 2.5
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 3,
-          "points": 2.5
-        },
-        "effect-sse-httpapi-streaming": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 40.0
-        },
-        "textual-richlog-follow-state": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "koota-pair-relation-tracking": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 20.0
-        },
-        "aiomonitor-task-snapshots-diff": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "cliffy-config-file-parsing": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "tengo-destructuring-bindings": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "httpx-multipart-response-parsing": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 3,
-          "points": 3.3333333333333335
-        },
-        "dynamodb-toolbox-lazy-recursive-schemas": {
-          "reward": 1,
-          "attempts": 2,
-          "rank": 1,
-          "points": 10.0
-        }
-      },
-      "place": 3
-    },
-    {
       "name": "salee036-sys",
-      "points": 101.6667,
-      "solved": 16,
-      "submissions": 18,
+      "points": 111.6667,
+      "solved": 17,
+      "submissions": 19,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2515,6 +2448,81 @@
         "task-task-graph-export": {
           "reward": 1,
           "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "dynamodb-toolbox-conditional-attribute-requirements": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 3
+    },
+    {
+      "name": "benpullis",
+      "points": 103.3333,
+      "solved": 10,
+      "submissions": 13,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 4,
+          "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 3,
+          "points": 2.5
+        },
+        "effect-sse-httpapi-streaming": {
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 40.0
+        },
+        "textual-richlog-follow-state": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "koota-pair-relation-tracking": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 20.0
+        },
+        "aiomonitor-task-snapshots-diff": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "cliffy-config-file-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "tengo-destructuring-bindings": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "httpx-multipart-response-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
+        },
+        "dynamodb-toolbox-lazy-recursive-schemas": {
+          "reward": 1,
+          "attempts": 2,
           "rank": 1,
           "points": 10.0
         }
