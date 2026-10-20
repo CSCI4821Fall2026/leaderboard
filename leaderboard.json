@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T14:07:00+00:00",
+  "updated": "2026-10-20T14:36:40+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2337,7 +2337,7 @@
       "name": "benpullis",
       "points": 93.3333,
       "solved": 9,
-      "submissions": 11,
+      "submissions": 12,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2392,6 +2392,10 @@
           "attempts": 1,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "dynamodb-toolbox-lazy-recursive-schemas": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 3
