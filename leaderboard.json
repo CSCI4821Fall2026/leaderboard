@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T22:14:55+00:00",
+  "updated": "2026-10-20T14:07:00+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -743,14 +743,15 @@
       "desc": "Add Response iterators that parse multipart HTTP response bodies into parts.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "xingjianwang001",
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "httpx-streaming-json-iteration",
@@ -2193,7 +2194,7 @@
     },
     {
       "name": "xingjianwang001",
-      "points": 163.3333,
+      "points": 161.6667,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -2251,7 +2252,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "actionlint-action-pinning-lint": {
           "reward": 0,
@@ -2334,9 +2335,9 @@
     },
     {
       "name": "benpullis",
-      "points": 90.0,
-      "solved": 8,
-      "submissions": 10,
+      "points": 93.3333,
+      "solved": 9,
+      "submissions": 11,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2385,13 +2386,19 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "httpx-multipart-response-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
         }
       },
       "place": 3
     },
     {
       "name": "salee036-sys",
-      "points": 83.3333,
+      "points": 81.6667,
       "solved": 14,
       "submissions": 16,
       "tasks": {
@@ -2463,7 +2470,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "valibot-recursive-schema-composition": {
           "reward": 1,
