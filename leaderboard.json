@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:15:55+00:00",
+  "updated": "2026-10-20T18:23:59+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -176,11 +176,13 @@
       "desc": "Add dependency-aware asynchronous container initialization with ordered startup, concurrency limits, and rollback on failure.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "mahin-11"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "bandit-incremental-cache-control",
@@ -2505,9 +2507,9 @@
     },
     {
       "name": "mahin-11",
-      "points": 42.5,
-      "solved": 5,
-      "submissions": 15,
+      "points": 62.5,
+      "solved": 6,
+      "submissions": 17,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2552,6 +2554,16 @@
           "points": 10.0
         },
         "ink-grid-box-layout": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "awilix-async-container-initialization": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "happy-dom-deterministic-intersectionobserver": {
           "reward": 0,
           "attempts": 1
         }
