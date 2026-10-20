@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:23:59+00:00",
+  "updated": "2026-10-20T18:33:19+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -594,11 +594,13 @@
       "desc": "Expose fully accumulated streamed function-call arguments across streaming, live sessions, and chat history.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "go-git-worktree-merge-conflicts",
@@ -1619,11 +1621,13 @@
       "desc": "Add a graph export command for tasks with JSON, DOT, and text output, including reverse traversal and status control.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "tengo-callable-instance-isolation",
@@ -2410,9 +2414,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 81.6667,
-      "solved": 14,
-      "submissions": 16,
+      "points": 101.6667,
+      "solved": 16,
+      "submissions": 18,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2501,6 +2505,18 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "go-genai-streamed-function-args": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "task-task-graph-export": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 4
