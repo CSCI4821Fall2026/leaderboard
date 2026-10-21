@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T14:11:04+00:00",
+  "updated": "2026-10-21T14:18:52+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1728,13 +1728,14 @@
       "desc": "Split report output into per-launcher files with template expansion, launcher-safe filenames, and per-launcher summaries.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "textual-kitty-key-phases",
@@ -1992,7 +1993,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 353.3333,
+      "points": 348.3333,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2190,7 +2191,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "query-persist-restored-query-state": {
           "reward": 0,
@@ -2547,9 +2548,9 @@
     },
     {
       "name": "benpullis",
-      "points": 108.3333,
-      "solved": 11,
-      "submissions": 20,
+      "points": 113.3333,
+      "solved": 12,
+      "submissions": 21,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2620,6 +2621,12 @@
           "attempts": 3
         },
         "goreleaser-retry-publish-auditing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "testem-per-launcher-reports": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
