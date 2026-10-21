@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:40:11+00:00",
+  "updated": "2026-10-21T05:09:37+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2224,7 +2224,7 @@
       "name": "salee036-sys",
       "points": 181.6667,
       "solved": 24,
-      "submissions": 31,
+      "submissions": 32,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2381,6 +2381,10 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "meriyah-explicit-resource-declarations": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 2
