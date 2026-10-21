@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T16:03:51+00:00",
+  "updated": "2026-10-21T16:12:10+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1951,11 +1951,13 @@
       "desc": "Support //go:embed directives so interpreted package variables can receive embedded file contents and embed.FS values.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "yjs-map-conflict-detection",
@@ -2236,9 +2238,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 241.6667,
-      "solved": 27,
-      "submissions": 39,
+      "points": 251.6667,
+      "solved": 28,
+      "submissions": 41,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2408,7 +2410,7 @@
         },
         "fd-deterministic-multi-key-sorting": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "etree-xml-diff-patch": {
           "reward": 1,
@@ -2417,6 +2419,12 @@
           "points": 10.0
         },
         "scriggo-method-declarations": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "yaegi-go-embed-directives": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
