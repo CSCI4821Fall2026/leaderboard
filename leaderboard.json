@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:17:10+00:00",
+  "updated": "2026-10-21T04:25:00+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1209,11 +1209,13 @@
       "desc": "Implement standalone comment markers that disable and re-enable specific lint rules with nested scope handling.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "dandruff2022"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "ofetch-per-origin-circuit-breaker",
@@ -2671,6 +2673,21 @@
       "place": 5
     },
     {
+      "name": "dandruff2022",
+      "points": 10.0,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "obsidian-linter-scoped-ignore-markers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 6
+    },
+    {
       "name": "mai00082",
       "points": 2.5,
       "solved": 1,
@@ -2683,7 +2700,7 @@
           "points": 2.5
         }
       },
-      "place": 6
+      "place": 7
     }
   ]
 }
