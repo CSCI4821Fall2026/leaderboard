@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T06:32:50+00:00",
+  "updated": "2026-10-21T14:11:04+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -636,13 +636,14 @@
       "desc": "Implement per-artifact retries for uploads, artifactory, and blobs while recording deterministic publish attempt history.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "gql-incremental-graphql-delivery",
@@ -1991,7 +1992,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 358.3333,
+      "points": 353.3333,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2205,7 +2206,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "yjs-map-conflict-detection": {
           "reward": 1,
@@ -2546,9 +2547,9 @@
     },
     {
       "name": "benpullis",
-      "points": 103.3333,
-      "solved": 10,
-      "submissions": 19,
+      "points": 108.3333,
+      "solved": 11,
+      "submissions": 20,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2617,6 +2618,12 @@
         "meriyah-explicit-resource-declarations": {
           "reward": 0,
           "attempts": 3
+        },
+        "goreleaser-retry-publish-auditing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
