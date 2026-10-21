@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:10:25+00:00",
+  "updated": "2026-10-21T04:17:10+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -146,11 +146,13 @@
       "desc": "Implement baseline capture, drift comparison, and compliance tracking for container configurations.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "arktype-json-schema-refs-dependencies",
@@ -2218,9 +2220,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 171.6667,
-      "solved": 23,
-      "submissions": 27,
+      "points": 181.6667,
+      "solved": 24,
+      "submissions": 29,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2354,7 +2356,7 @@
         },
         "abs-stepped-slices": {
           "reward": 0,
-          "attempts": 1
+          "attempts": 2
         },
         "wasmi-trap-coredumps": {
           "reward": 1,
@@ -2367,6 +2369,12 @@
           "attempts": 1
         },
         "kcp-go-multiplexed-kcp-streams": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "arcane-drift-detection-baselines": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
