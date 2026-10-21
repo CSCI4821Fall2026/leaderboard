@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T15:52:05+00:00",
+  "updated": "2026-10-21T16:03:51+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1542,11 +1542,13 @@
       "desc": "Implement method declarations with receiver handling, method expressions, and interface satisfaction for Scriggo-defined types.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "skrub-duration-encoding",
@@ -2234,9 +2236,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 231.6667,
-      "solved": 26,
-      "submissions": 38,
+      "points": 241.6667,
+      "solved": 27,
+      "submissions": 39,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2409,6 +2411,12 @@
           "attempts": 1
         },
         "etree-xml-diff-patch": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "scriggo-method-declarations": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
