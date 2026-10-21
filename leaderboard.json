@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T22:08:33+00:00",
+  "updated": "2026-10-21T22:22:08+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2592,7 +2592,7 @@
       "name": "benpullis",
       "points": 123.3333,
       "solved": 13,
-      "submissions": 22,
+      "submissions": 23,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2679,6 +2679,10 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "boa-hierarchical-evaluation-cancellation": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 4
