@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T22:22:08+00:00",
+  "updated": "2026-10-21T22:32:06+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -250,13 +250,14 @@
       "desc": "Add cancellable evaluation handles that propagate through nested script, module, and job execution.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "mahin-11"
+        "mahin-11",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "cattrs-partial-structuring-recovery",
@@ -2590,9 +2591,9 @@
     },
     {
       "name": "benpullis",
-      "points": 123.3333,
-      "solved": 13,
-      "submissions": 23,
+      "points": 128.3333,
+      "solved": 14,
+      "submissions": 24,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2681,8 +2682,10 @@
           "points": 10.0
         },
         "boa-hierarchical-evaluation-cancellation": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
@@ -2734,7 +2737,7 @@
     },
     {
       "name": "mahin-11",
-      "points": 62.5,
+      "points": 57.5,
       "solved": 6,
       "submissions": 20,
       "tasks": {
@@ -2772,7 +2775,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "tengo-callable-instance-isolation": {
           "reward": 1,
