@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T05:09:37+00:00",
+  "updated": "2026-10-21T05:14:54+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -584,11 +584,13 @@
       "desc": "Add a diagnostic checker that validates doc comment symbol links against package and type information.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "dandruff2022"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "go-genai-streamed-function-args",
@@ -1054,11 +1056,13 @@
       "desc": "Add `Runnable.with_coalesce()` so concurrent identical inputs share one execution across sync, async, streaming, and batch APIs.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 20.0
+      "solved_by": [
+        "dandruff2022"
+      ],
+      "points_each": 20.0,
+      "next_points": 10.0
     },
     {
       "id": "mashumaro-flattened-dataclass-fields",
@@ -2224,7 +2228,7 @@
       "name": "salee036-sys",
       "points": 181.6667,
       "solved": 24,
-      "submissions": 32,
+      "submissions": 33,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2368,7 +2372,7 @@
         },
         "anko-default-function-arguments": {
           "reward": 0,
-          "attempts": 2
+          "attempts": 3
         },
         "kcp-go-multiplexed-kcp-streams": {
           "reward": 1,
@@ -2678,15 +2682,27 @@
     },
     {
       "name": "dandruff2022",
-      "points": 10.0,
-      "solved": 1,
-      "submissions": 1,
+      "points": 50.0,
+      "solved": 3,
+      "submissions": 3,
       "tasks": {
         "obsidian-linter-scoped-ignore-markers": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "langchain-request-coalescing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "go-critic-doc-link-checker": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
         }
       },
       "place": 6
