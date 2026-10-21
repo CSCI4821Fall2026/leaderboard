@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T16:12:10+00:00",
+  "updated": "2026-10-21T16:20:42+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1288,11 +1288,13 @@
       "desc": "Rebuild lowered template strings into normal Rego syntax in partial evaluation outputs and support modules.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "optique-conditional-option-dependencies",
@@ -2238,9 +2240,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 251.6667,
-      "solved": 28,
-      "submissions": 41,
+      "points": 261.6667,
+      "solved": 29,
+      "submissions": 42,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2425,6 +2427,12 @@
           "points": 10.0
         },
         "yaegi-go-embed-directives": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "opa-template-string-reconstruction": {
           "reward": 1,
           "attempts": 1,
           "rank": 1,
