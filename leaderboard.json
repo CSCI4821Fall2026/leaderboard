@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T23:35:51+00:00",
+  "updated": "2026-10-21T01:40:57+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2565,7 +2565,7 @@
       "name": "mahin-11",
       "points": 62.5,
       "solved": 6,
-      "submissions": 17,
+      "submissions": 18,
       "tasks": {
         "obsidian-linter-auto-table-of-contents": {
           "reward": 0,
@@ -2620,6 +2620,10 @@
           "points": 20.0
         },
         "happy-dom-deterministic-intersectionobserver": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "koota-query-predicates": {
           "reward": 0,
           "attempts": 1
         }
