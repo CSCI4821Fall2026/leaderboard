@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:05:15+00:00",
+  "updated": "2026-10-21T04:10:25+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -861,11 +861,13 @@
       "desc": "Add a multiplexing layer that carries many ordered sub-streams over one KCP connection with flow control, priority scheduling, and SNMP counters.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "kea-atomic-signal-selectors",
@@ -1895,11 +1897,13 @@
       "desc": "Generate opt-in Wasm coredumps on traps and attach the bytes to errors.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "wazero-multi-module-snapshots",
@@ -2213,6 +2217,165 @@
       "place": 1
     },
     {
+      "name": "salee036-sys",
+      "points": 171.6667,
+      "solved": 23,
+      "submissions": 27,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 2.5
+        },
+        "ink-grid-box-layout": {
+          "reward": 0,
+          "attempts": 2
+        },
+        "ts-pattern-match-each": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "kombu-virtual-queue-dead-lettering": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "adaptix-name-mapping-aliases": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "tomlkit-toml-table-converters": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "dateutil-rfc5545-timezone-interop": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "httpx-multipart-response-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 3.3333333333333335
+        },
+        "valibot-recursive-schema-composition": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
+        },
+        "kysely-window-grouping-helpers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "go-genai-streamed-function-args": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "task-task-graph-export": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "dynamodb-toolbox-conditional-attribute-requirements": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "wazero-multi-module-snapshots": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "vitest-duration-sharding": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "helm-unified-manifest-stream": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "abs-module-cache-flags": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "abs-stepped-slices": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "wasmi-trap-coredumps": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "anko-default-function-arguments": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "kcp-go-multiplexed-kcp-streams": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 2
+    },
+    {
       "name": "xingjianwang001",
       "points": 161.6667,
       "solved": 14,
@@ -2347,149 +2510,6 @@
           "attempts": 1
         },
         "termenv-preserve-ansi-resets": {
-          "reward": 0,
-          "attempts": 1
-        }
-      },
-      "place": 2
-    },
-    {
-      "name": "salee036-sys",
-      "points": 151.6667,
-      "solved": 21,
-      "submissions": 24,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 2.5
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 2.5
-        },
-        "ink-grid-box-layout": {
-          "reward": 0,
-          "attempts": 2
-        },
-        "ts-pattern-match-each": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "kombu-virtual-queue-dead-lettering": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "psd-tools-blend-range-api": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "adaptix-name-mapping-aliases": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "returns-validated-error-accumulation": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "tomlkit-toml-table-converters": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "dateutil-rfc5545-timezone-interop": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
-        },
-        "cattrs-partial-structuring-recovery": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "httpx-multipart-response-parsing": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 3.3333333333333335
-        },
-        "valibot-recursive-schema-composition": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "fastapi-deprecation-response-headers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 3,
-          "points": 3.3333333333333335
-        },
-        "kysely-window-grouping-helpers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "go-genai-streamed-function-args": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "task-task-graph-export": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "dynamodb-toolbox-conditional-attribute-requirements": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "wazero-multi-module-snapshots": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "vitest-duration-sharding": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "helm-unified-manifest-stream": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "abs-module-cache-flags": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "abs-stepped-slices": {
           "reward": 0,
           "attempts": 1
         }
