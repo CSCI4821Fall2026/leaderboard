@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T05:22:36+00:00",
+  "updated": "2026-10-21T05:55:11+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1199,11 +1199,13 @@
       "desc": "Add a Link Style rule that converts between Obsidian wiki links or embeds and markdown links or images while preserving ignored regions and edge cases.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 40.0
+      "solved_by": [
+        "salee036-sys"
+      ],
+      "points_each": 40.0,
+      "next_points": 20.0
     },
     {
       "id": "obsidian-linter-scoped-ignore-markers",
@@ -2228,9 +2230,9 @@
     },
     {
       "name": "salee036-sys",
-      "points": 181.6667,
-      "solved": 24,
-      "submissions": 33,
+      "points": 221.6667,
+      "solved": 25,
+      "submissions": 34,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2391,6 +2393,12 @@
         "meriyah-explicit-resource-declarations": {
           "reward": 0,
           "attempts": 1
+        },
+        "obsidian-linter-link-format-conversion": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 40.0
         }
       },
       "place": 2
