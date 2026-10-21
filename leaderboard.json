@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T15:00:02+00:00",
+  "updated": "2026-10-21T15:08:01+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2639,7 +2639,7 @@
       "name": "dandruff2022",
       "points": 70.0,
       "solved": 4,
-      "submissions": 5,
+      "submissions": 7,
       "tasks": {
         "obsidian-linter-scoped-ignore-markers": {
           "reward": 1,
@@ -2666,6 +2666,14 @@
           "points": 20.0
         },
         "expr-try-catch-errors": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "koota-composite-trait-aspects": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "obsidian-linter-link-format-conversion": {
           "reward": 0,
           "attempts": 1
         }
