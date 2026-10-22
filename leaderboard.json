@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T14:13:47+00:00",
+  "updated": "2026-10-22T14:21:58+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -941,14 +941,15 @@
       "desc": "Add dead-letter routing, TTL expiry, and max-length overflow handling to the virtual transport layer.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "salee036-sys",
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 6.6667
+      "points_each": 6.6667,
+      "next_points": 5.0
     },
     {
       "id": "koota-composite-trait-aspects",
@@ -2006,7 +2007,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 348.3333,
+      "points": 345.0,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2158,7 +2159,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 10.0
+          "points": 6.666666666666667
         },
         "pwntools-tube-multiplexing": {
           "reward": 1,
@@ -2245,7 +2246,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 271.6667,
+      "points": 268.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2275,7 +2276,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 6.666666666666667
         },
         "psd-tools-blend-range-api": {
           "reward": 1,
@@ -2591,9 +2592,9 @@
     },
     {
       "name": "benpullis",
-      "points": 128.3333,
-      "solved": 14,
-      "submissions": 26,
+      "points": 135.0,
+      "solved": 15,
+      "submissions": 27,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2690,6 +2691,12 @@
         "scc-bounded-memory-spilling": {
           "reward": 0,
           "attempts": 2
+        },
+        "kombu-virtual-queue-dead-lettering": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 6.666666666666667
         }
       },
       "place": 4
