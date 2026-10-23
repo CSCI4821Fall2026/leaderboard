@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T14:21:58+00:00",
+  "updated": "2026-10-23T14:09:05+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -555,13 +555,14 @@
       "desc": "Add repeatable multi-key sorting controls to fd output with deterministic tie-breaking and seeded random order.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "geo-shapeindex-serialization",
@@ -2246,7 +2247,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 268.3333,
+      "points": 263.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2420,7 +2421,7 @@
           "reward": 1,
           "attempts": 3,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "etree-xml-diff-patch": {
           "reward": 1,
@@ -2592,9 +2593,9 @@
     },
     {
       "name": "benpullis",
-      "points": 135.0,
-      "solved": 15,
-      "submissions": 27,
+      "points": 140.0,
+      "solved": 16,
+      "submissions": 28,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2697,6 +2698,12 @@
           "attempts": 1,
           "rank": 3,
           "points": 6.666666666666667
+        },
+        "fd-deterministic-multi-key-sorting": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
