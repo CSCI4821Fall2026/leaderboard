@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T14:43:32+00:00",
+  "updated": "2026-10-23T23:21:24+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1942,13 +1942,14 @@
       "desc": "Add coordinated capture, restore, diff, and serialization for multi-module memory snapshots.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "yaegi-go-embed-directives",
@@ -2247,7 +2248,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 263.3333,
+      "points": 258.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2361,7 +2362,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "vitest-duration-sharding": {
           "reward": 1,
@@ -2593,9 +2594,9 @@
     },
     {
       "name": "benpullis",
-      "points": 140.0,
-      "solved": 16,
-      "submissions": 30,
+      "points": 145.0,
+      "solved": 17,
+      "submissions": 31,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2708,6 +2709,12 @@
         "bandit-incremental-cache-control": {
           "reward": 0,
           "attempts": 2
+        },
+        "wazero-multi-module-snapshots": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
