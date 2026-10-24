@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T23:21:24+00:00",
+  "updated": "2026-10-24T14:13:57+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2596,7 +2596,7 @@
       "name": "benpullis",
       "points": 145.0,
       "solved": 17,
-      "submissions": 31,
+      "submissions": 32,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2715,6 +2715,10 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "awilix-async-container-initialization": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 4
