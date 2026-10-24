@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T14:21:36+00:00",
+  "updated": "2026-10-24T14:30:35+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -537,13 +537,14 @@
       "desc": "Add configurable implicit HEAD handling and automatic OPTIONS responses for FastAPI routes, routers, and included routers.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "fd-deterministic-multi-key-sorting",
@@ -2453,7 +2454,7 @@
     },
     {
       "name": "xingjianwang001",
-      "points": 161.6667,
+      "points": 156.6667,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -2477,7 +2478,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "fastapi-deprecation-response-headers": {
           "reward": 1,
@@ -2594,9 +2595,9 @@
     },
     {
       "name": "benpullis",
-      "points": 145.0,
-      "solved": 17,
-      "submissions": 33,
+      "points": 150.0,
+      "solved": 18,
+      "submissions": 34,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2719,6 +2720,12 @@
         "awilix-async-container-initialization": {
           "reward": 0,
           "attempts": 2
+        },
+        "fastapi-implicit-head-options": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 4
