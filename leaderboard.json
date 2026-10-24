@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T14:30:35+00:00",
+  "updated": "2026-10-24T22:04:30+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1244,13 +1244,14 @@
       "desc": "Add an opt-in per-origin circuit breaker for fetch requests with half-open probing and shared state across clients.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "onedump-dump-encryption-pipeline",
@@ -2010,7 +2011,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 345.0,
+      "points": 340.0,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2180,7 +2181,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "textual-richlog-follow-state": {
           "reward": 1,
@@ -2595,9 +2596,9 @@
     },
     {
       "name": "benpullis",
-      "points": 150.0,
-      "solved": 18,
-      "submissions": 34,
+      "points": 155.0,
+      "solved": 19,
+      "submissions": 35,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2722,6 +2723,12 @@
           "attempts": 2
         },
         "fastapi-implicit-head-options": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "ofetch-per-origin-circuit-breaker": {
           "reward": 1,
           "attempts": 1,
           "rank": 2,
