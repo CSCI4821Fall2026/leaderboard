@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T17:11:53+00:00",
+  "updated": "2026-10-25T22:37:31+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -411,13 +411,14 @@
       "desc": "Add `requiredIf`-based conditional attribute enforcement across schema validation, parsing, updates, and JSON Schema export.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "dynamodb-toolbox-lazy-recursive-schemas",
@@ -2252,7 +2253,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 258.3333,
+      "points": 253.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2360,7 +2361,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "wazero-multi-module-snapshots": {
           "reward": 1,
@@ -2457,9 +2458,9 @@
     },
     {
       "name": "benpullis",
-      "points": 170.0,
-      "solved": 21,
-      "submissions": 39,
+      "points": 175.0,
+      "solved": 22,
+      "submissions": 40,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2610,6 +2611,12 @@
         "pwntools-tube-multiplexing": {
           "reward": 0,
           "attempts": 2
+        },
+        "dynamodb-toolbox-conditional-attribute-requirements": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
