@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T22:16:32+00:00",
+  "updated": "2026-10-25T15:29:37+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1572,13 +1572,14 @@
       "desc": "Add a DurationEncoder, duration selector, and duration routing in TableVectorizer.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "umnfoxiny7"
+        "umnfoxiny7",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "sqlfmt-create-table-ddl-formatting",
@@ -2012,7 +2013,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 340.0,
+      "points": 335.0,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2114,7 +2115,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "bandit-structured-nosec-directives": {
           "reward": 0,
@@ -2456,9 +2457,9 @@
     },
     {
       "name": "benpullis",
-      "points": 165.0,
-      "solved": 20,
-      "submissions": 36,
+      "points": 170.0,
+      "solved": 21,
+      "submissions": 37,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2599,6 +2600,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 10.0
+        },
+        "skrub-duration-encoding": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
