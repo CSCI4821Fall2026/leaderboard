@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T15:29:37+00:00",
+  "updated": "2026-10-25T15:51:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2459,7 +2459,7 @@
       "name": "benpullis",
       "points": 170.0,
       "solved": 21,
-      "submissions": 37,
+      "submissions": 38,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2606,6 +2606,10 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "pwntools-tube-multiplexing": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 3
