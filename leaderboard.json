@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T22:07:56+00:00",
+  "updated": "2026-10-26T22:15:42+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -484,13 +484,14 @@
       "desc": "Add recursive XML diffing, patch generation and application, reverse patching, three-way merge, and diff summaries.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "expr-try-catch-errors",
@@ -2256,7 +2257,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 251.6667,
+      "points": 246.6667,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2436,7 +2437,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "scriggo-method-declarations": {
           "reward": 1,
@@ -2461,9 +2462,9 @@
     },
     {
       "name": "benpullis",
-      "points": 198.3333,
-      "solved": 24,
-      "submissions": 46,
+      "points": 203.3333,
+      "solved": 25,
+      "submissions": 47,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2640,6 +2641,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 20.0
+        },
+        "etree-xml-diff-patch": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
