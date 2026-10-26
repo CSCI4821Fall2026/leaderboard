@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T14:38:16+00:00",
+  "updated": "2026-10-26T14:45:58+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2461,7 +2461,7 @@
       "name": "benpullis",
       "points": 178.3333,
       "solved": 23,
-      "submissions": 43,
+      "submissions": 44,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2628,6 +2628,10 @@
         "arktype-json-schema-refs-dependencies": {
           "reward": 0,
           "attempts": 2
+        },
+        "termenv-preserve-ansi-resets": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 3
