@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T14:11:53+00:00",
+  "updated": "2026-10-27T14:27:12+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -593,13 +593,14 @@
       "desc": "Add a diagnostic checker that validates doc comment symbol links against package and type information.",
       "tier": "medium",
       "max_points": 20,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "dandruff2022"
+        "dandruff2022",
+        "benpullis"
       ],
-      "points_each": 20.0,
-      "next_points": 10.0
+      "points_each": 10.0,
+      "next_points": 6.6667
     },
     {
       "id": "go-genai-streamed-function-args",
@@ -2464,9 +2465,9 @@
     },
     {
       "name": "benpullis",
-      "points": 213.3333,
-      "solved": 26,
-      "submissions": 48,
+      "points": 223.3333,
+      "solved": 27,
+      "submissions": 49,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2655,6 +2656,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "go-critic-doc-link-checker": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 10.0
         }
       },
       "place": 3
@@ -2801,51 +2808,6 @@
       "place": 4
     },
     {
-      "name": "dandruff2022",
-      "points": 60.0,
-      "solved": 4,
-      "submissions": 7,
-      "tasks": {
-        "obsidian-linter-scoped-ignore-markers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "langchain-request-coalescing": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "go-critic-doc-link-checker": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
-        },
-        "katex-multicolumn-array-spans": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
-        },
-        "expr-try-catch-errors": {
-          "reward": 0,
-          "attempts": 1
-        },
-        "koota-composite-trait-aspects": {
-          "reward": 0,
-          "attempts": 1
-        },
-        "obsidian-linter-link-format-conversion": {
-          "reward": 0,
-          "attempts": 1
-        }
-      },
-      "place": 5
-    },
-    {
       "name": "mahin-11",
       "points": 57.5,
       "solved": 6,
@@ -2908,6 +2870,51 @@
           "attempts": 2
         },
         "koota-query-predicates": {
+          "reward": 0,
+          "attempts": 1
+        }
+      },
+      "place": 5
+    },
+    {
+      "name": "dandruff2022",
+      "points": 50.0,
+      "solved": 4,
+      "submissions": 7,
+      "tasks": {
+        "obsidian-linter-scoped-ignore-markers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "langchain-request-coalescing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "go-critic-doc-link-checker": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "katex-multicolumn-array-spans": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "expr-try-catch-errors": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "koota-composite-trait-aspects": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "obsidian-linter-link-format-conversion": {
           "reward": 0,
           "attempts": 1
         }
