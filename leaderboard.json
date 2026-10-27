@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T22:15:42+00:00",
+  "updated": "2026-10-27T14:11:53+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1491,11 +1491,13 @@
       "desc": "Preserve full persisted query state, including errors, counters, timestamps, and infinite pagination, during restoration and cache rebuilds.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "quill-shared-toolbar-focus",
@@ -2462,9 +2464,9 @@
     },
     {
       "name": "benpullis",
-      "points": 203.3333,
-      "solved": 25,
-      "submissions": 47,
+      "points": 213.3333,
+      "solved": 26,
+      "submissions": 48,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2647,6 +2649,12 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "query-persist-restored-query-state": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 3
