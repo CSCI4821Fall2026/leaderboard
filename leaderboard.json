@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T19:32:02+00:00",
+  "updated": "2026-10-28T14:07:25+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -112,11 +112,13 @@
       "desc": "Add parsing and call-time evaluation of default parameter values in Anko functions.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "anko-typed-variable-bindings",
@@ -2471,9 +2473,9 @@
     },
     {
       "name": "benpullis",
-      "points": 223.3333,
-      "solved": 27,
-      "submissions": 49,
+      "points": 233.3333,
+      "solved": 28,
+      "submissions": 50,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2667,6 +2669,12 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
+          "points": 10.0
+        },
+        "anko-default-function-arguments": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
           "points": 10.0
         }
       },
