@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T14:07:25+00:00",
+  "updated": "2026-10-28T14:15:33+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -395,13 +395,14 @@
       "desc": "Add typed query-builder helpers for SQL window functions, named windows, and frame specs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "mahin-11"
+        "mahin-11",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "dynamodb-toolbox-conditional-attribute-requirements",
@@ -2473,9 +2474,9 @@
     },
     {
       "name": "benpullis",
-      "points": 233.3333,
-      "solved": 28,
-      "submissions": 50,
+      "points": 238.3333,
+      "solved": 29,
+      "submissions": 51,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2676,6 +2677,12 @@
           "attempts": 1,
           "rank": 1,
           "points": 10.0
+        },
+        "drizzle-orm-window-function-builders": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 3
@@ -2882,7 +2889,7 @@
     },
     {
       "name": "mahin-11",
-      "points": 57.5,
+      "points": 52.5,
       "solved": 6,
       "submissions": 20,
       "tasks": {
@@ -2900,7 +2907,7 @@
           "reward": 1,
           "attempts": 2,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "gql-incremental-graphql-delivery": {
           "reward": 0,
