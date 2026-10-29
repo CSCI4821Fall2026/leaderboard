@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T22:06:28+00:00",
+  "updated": "2026-10-29T14:08:37+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1533,14 +1533,15 @@
       "desc": "Add a Validated container that accumulates errors while preserving standard container APIs.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "umnfoxiny7",
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "scc-bounded-memory-spilling",
@@ -2031,7 +2032,7 @@
   "entries": [
     {
       "name": "umnfoxiny7",
-      "points": 333.3333,
+      "points": 331.6667,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2085,7 +2086,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "cattrs-partial-structuring-recovery": {
           "reward": 1,
@@ -2269,215 +2270,10 @@
       "place": 1
     },
     {
-      "name": "salee036-sys",
-      "points": 246.6667,
-      "solved": 30,
-      "submissions": 43,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 2.5
-        },
-        "httpx-deterministic-cookie-store": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 2.5
-        },
-        "ink-grid-box-layout": {
-          "reward": 0,
-          "attempts": 2
-        },
-        "ts-pattern-match-each": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "kombu-virtual-queue-dead-lettering": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 6.666666666666667
-        },
-        "psd-tools-blend-range-api": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "adaptix-name-mapping-aliases": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "returns-validated-error-accumulation": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "tomlkit-toml-table-converters": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "dateutil-rfc5545-timezone-interop": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 20.0
-        },
-        "cattrs-partial-structuring-recovery": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "httpx-multipart-response-parsing": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 3.3333333333333335
-        },
-        "valibot-recursive-schema-composition": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 3.3333333333333335
-        },
-        "fastapi-deprecation-response-headers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 3,
-          "points": 3.3333333333333335
-        },
-        "kysely-window-grouping-helpers": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 2,
-          "points": 5.0
-        },
-        "go-genai-streamed-function-args": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "task-task-graph-export": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "dynamodb-toolbox-conditional-attribute-requirements": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "wazero-multi-module-snapshots": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "vitest-duration-sharding": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "helm-unified-manifest-stream": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "abs-module-cache-flags": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "abs-stepped-slices": {
-          "reward": 0,
-          "attempts": 3
-        },
-        "wasmi-trap-coredumps": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "anko-default-function-arguments": {
-          "reward": 0,
-          "attempts": 3
-        },
-        "kcp-go-multiplexed-kcp-streams": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "arcane-drift-detection-baselines": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "meriyah-explicit-resource-declarations": {
-          "reward": 0,
-          "attempts": 3
-        },
-        "obsidian-linter-link-format-conversion": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 40.0
-        },
-        "fd-deterministic-multi-key-sorting": {
-          "reward": 1,
-          "attempts": 3,
-          "rank": 1,
-          "points": 5.0
-        },
-        "etree-xml-diff-patch": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 5.0
-        },
-        "scriggo-method-declarations": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "yaegi-go-embed-directives": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        },
-        "opa-template-string-reconstruction": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 1,
-          "points": 10.0
-        }
-      },
-      "place": 2
-    },
-    {
       "name": "benpullis",
-      "points": 243.3333,
-      "solved": 30,
-      "submissions": 54,
+      "points": 246.6667,
+      "solved": 31,
+      "submissions": 55,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2694,6 +2490,217 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
+        }
+      },
+      "place": 2
+    },
+    {
+      "name": "salee036-sys",
+      "points": 245.0,
+      "solved": 30,
+      "submissions": 43,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 2.5
+        },
+        "httpx-deterministic-cookie-store": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 2.5
+        },
+        "ink-grid-box-layout": {
+          "reward": 0,
+          "attempts": 2
+        },
+        "ts-pattern-match-each": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "kombu-virtual-queue-dead-lettering": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 6.666666666666667
+        },
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "adaptix-name-mapping-aliases": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "returns-validated-error-accumulation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 3.3333333333333335
+        },
+        "tomlkit-toml-table-converters": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "dateutil-rfc5545-timezone-interop": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 20.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "httpx-multipart-response-parsing": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 3.3333333333333335
+        },
+        "valibot-recursive-schema-composition": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 3.3333333333333335
+        },
+        "fastapi-deprecation-response-headers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
+        },
+        "kysely-window-grouping-helpers": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        },
+        "go-genai-streamed-function-args": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "task-task-graph-export": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "dynamodb-toolbox-conditional-attribute-requirements": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "wazero-multi-module-snapshots": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "vitest-duration-sharding": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "helm-unified-manifest-stream": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "abs-module-cache-flags": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "abs-stepped-slices": {
+          "reward": 0,
+          "attempts": 3
+        },
+        "wasmi-trap-coredumps": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "anko-default-function-arguments": {
+          "reward": 0,
+          "attempts": 3
+        },
+        "kcp-go-multiplexed-kcp-streams": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "arcane-drift-detection-baselines": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "meriyah-explicit-resource-declarations": {
+          "reward": 0,
+          "attempts": 3
+        },
+        "obsidian-linter-link-format-conversion": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 40.0
+        },
+        "fd-deterministic-multi-key-sorting": {
+          "reward": 1,
+          "attempts": 3,
+          "rank": 1,
+          "points": 5.0
+        },
+        "etree-xml-diff-patch": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 5.0
+        },
+        "scriggo-method-declarations": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "yaegi-go-embed-directives": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
+        },
+        "opa-template-string-reconstruction": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 3
