@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T14:08:37+00:00",
+  "updated": "2026-10-30T05:00:27+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1984,13 +1984,14 @@
       "desc": "Support //go:embed directives so interpreted package variables can receive embedded file contents and embed.FS values.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "yjs-map-conflict-detection",
@@ -2271,9 +2272,9 @@
     },
     {
       "name": "benpullis",
-      "points": 246.6667,
-      "solved": 31,
-      "submissions": 55,
+      "points": 251.6667,
+      "solved": 32,
+      "submissions": 56,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2496,13 +2497,19 @@
           "attempts": 1,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "yaegi-go-embed-directives": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 2
     },
     {
       "name": "salee036-sys",
-      "points": 245.0,
+      "points": 240.0,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2694,7 +2701,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "opa-template-string-reconstruction": {
           "reward": 1,
