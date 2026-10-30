@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:12:50+00:00",
+  "updated": "2026-10-30T23:35:14+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1202,11 +1202,13 @@
       "desc": "Implement an opt-in rule that generates and updates a TOC from document headings.",
       "tier": "hard",
       "max_points": 40,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 40.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 40.0,
+      "next_points": 20.0
     },
     {
       "id": "obsidian-linter-link-format-conversion",
@@ -2273,9 +2275,9 @@
     },
     {
       "name": "benpullis",
-      "points": 256.6667,
-      "solved": 33,
-      "submissions": 58,
+      "points": 296.6667,
+      "solved": 34,
+      "submissions": 59,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2512,8 +2514,10 @@
           "points": 5.0
         },
         "obsidian-linter-auto-table-of-contents": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 40.0
         }
       },
       "place": 2
