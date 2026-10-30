@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:35:14+00:00",
+  "updated": "2026-10-30T23:43:25+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -130,13 +130,14 @@
       "desc": "Add typed `var` declarations in Anko and enforce declared type constraints on assignment when TypedBindings is enabled.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "xingjianwang001"
+        "xingjianwang001",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "arcane-drift-detection-baselines",
@@ -2275,9 +2276,9 @@
     },
     {
       "name": "benpullis",
-      "points": 296.6667,
-      "solved": 34,
-      "submissions": 59,
+      "points": 301.6667,
+      "solved": 35,
+      "submissions": 60,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2518,6 +2519,12 @@
           "attempts": 2,
           "rank": 1,
           "points": 40.0
+        },
+        "anko-typed-variable-bindings": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 2
@@ -2729,7 +2736,7 @@
     },
     {
       "name": "xingjianwang001",
-      "points": 156.6667,
+      "points": 151.6667,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -2809,7 +2816,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "bandit-incremental-cache-control": {
           "reward": 1,
