@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:43:25+00:00",
+  "updated": "2026-10-31T18:46:23+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1310,13 +1310,14 @@
       "desc": "Rebuild lowered template strings into normal Rego syntax in partial evaluation outputs and support modules.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "optique-conditional-option-dependencies",
@@ -2276,9 +2277,9 @@
     },
     {
       "name": "benpullis",
-      "points": 301.6667,
-      "solved": 35,
-      "submissions": 60,
+      "points": 306.6667,
+      "solved": 36,
+      "submissions": 61,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2525,13 +2526,19 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "opa-template-string-reconstruction": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 2
     },
     {
       "name": "salee036-sys",
-      "points": 240.0,
+      "points": 235.0,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2729,7 +2736,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         }
       },
       "place": 3
