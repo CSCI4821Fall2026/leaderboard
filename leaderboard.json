@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T23:52:04+00:00",
+  "updated": "2026-11-01T23:07:00+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2279,7 +2279,7 @@
       "name": "benpullis",
       "points": 306.6667,
       "solved": 36,
-      "submissions": 62,
+      "submissions": 63,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2534,6 +2534,10 @@
           "points": 5.0
         },
         "kombu-single-active-consumer-priority": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "textual-kitty-key-phases": {
           "reward": 0,
           "attempts": 1
         }
