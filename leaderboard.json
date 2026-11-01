@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T23:21:44+00:00",
+  "updated": "2026-11-01T23:29:16+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1862,14 +1862,15 @@
       "desc": "Add a new `matchEach` matcher that evaluates all matching clauses and returns all results in order.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "xingjianwang001",
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "updo-policy-alerting",
@@ -2039,9 +2040,9 @@
   "entries": [
     {
       "name": "benpullis",
-      "points": 316.6667,
-      "solved": 37,
-      "submissions": 64,
+      "points": 320.0,
+      "solved": 38,
+      "submissions": 65,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2304,6 +2305,12 @@
           "attempts": 2,
           "rank": 2,
           "points": 10.0
+        },
+        "ts-pattern-match-each": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
         }
       },
       "place": 1
@@ -2549,7 +2556,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 235.0,
+      "points": 233.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2573,7 +2580,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "kombu-virtual-queue-dead-lettering": {
           "reward": 1,
@@ -2754,7 +2761,7 @@
     },
     {
       "name": "xingjianwang001",
-      "points": 151.6667,
+      "points": 150.0,
       "solved": 14,
       "submissions": 33,
       "tasks": {
@@ -2802,7 +2809,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "quill-shared-toolbar-focus": {
           "reward": 0,
