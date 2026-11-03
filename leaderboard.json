@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T16:12:02+00:00",
+  "updated": "2026-11-03T15:07:10+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -309,11 +309,13 @@
       "desc": "Run delegated sub-agents, feed their results back as tool_result, and handle unknown agents, failures, and circular delegation.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "benpullis"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "cliffy-config-file-parsing",
@@ -2040,9 +2042,9 @@
   "entries": [
     {
       "name": "benpullis",
-      "points": 320.0,
-      "solved": 38,
-      "submissions": 69,
+      "points": 330.0,
+      "solved": 39,
+      "submissions": 70,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2319,6 +2321,12 @@
         "obsidian-linter-link-format-conversion": {
           "reward": 0,
           "attempts": 2
+        },
+        "claude-code-by-agents-recursive-delegation": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 1,
+          "points": 10.0
         }
       },
       "place": 1
