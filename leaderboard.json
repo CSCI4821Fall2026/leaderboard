@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T05:55:03+00:00",
+  "updated": "2026-11-09T07:10:50+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -3085,13 +3085,17 @@
       "name": "avik-ch",
       "points": 0,
       "solved": 0,
-      "submissions": 2,
+      "submissions": 3,
       "tasks": {
         "meriyah-explicit-resource-declarations": {
           "reward": 0,
           "attempts": 1
         },
         "abs-stepped-slices": {
+          "reward": 0,
+          "attempts": 1
+        },
+        "go-git-worktree-merge-conflicts": {
           "reward": 0,
           "attempts": 1
         }
