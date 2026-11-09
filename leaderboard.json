@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T07:10:50+00:00",
+  "updated": "2026-11-09T07:18:50+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -639,11 +639,13 @@
       "desc": "Add worktree merge support with conflict detection, merge head handling, and index stage updates.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 0,
+      "solvers": 1,
       "available": true,
-      "solved_by": [],
-      "points_each": 0.0,
-      "next_points": 10.0
+      "solved_by": [
+        "avik-ch"
+      ],
+      "points_each": 10.0,
+      "next_points": 5.0
     },
     {
       "id": "goreleaser-retry-publish-auditing",
@@ -3067,25 +3069,10 @@
       "place": 6
     },
     {
-      "name": "mai00082",
-      "points": 2.5,
-      "solved": 1,
-      "submissions": 1,
-      "tasks": {
-        "narwhals-rolling-window-suite": {
-          "reward": 1,
-          "attempts": 1,
-          "rank": 3,
-          "points": 2.5
-        }
-      },
-      "place": 7
-    },
-    {
       "name": "avik-ch",
-      "points": 0,
-      "solved": 0,
-      "submissions": 3,
+      "points": 10.0,
+      "solved": 1,
+      "submissions": 4,
       "tasks": {
         "meriyah-explicit-resource-declarations": {
           "reward": 0,
@@ -3096,8 +3083,25 @@
           "attempts": 1
         },
         "go-git-worktree-merge-conflicts": {
-          "reward": 0,
-          "attempts": 1
+          "reward": 1,
+          "attempts": 2,
+          "rank": 1,
+          "points": 10.0
+        }
+      },
+      "place": 7
+    },
+    {
+      "name": "mai00082",
+      "points": 2.5,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "narwhals-rolling-window-suite": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 2.5
         }
       },
       "place": 8
