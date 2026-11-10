@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T15:36:09+00:00",
+  "updated": "2026-11-10T18:20:20+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1926,13 +1926,14 @@
       "desc": "Add duration-aware sharding strategies and duration history handling for Vitest.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "sing1261"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "vulture-persistent-analysis-cache",
@@ -2604,7 +2605,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 233.3333,
+      "points": 228.3333,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2724,7 +2725,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "helm-unified-manifest-stream": {
           "reward": 1,
@@ -3100,6 +3101,21 @@
       "place": 7
     },
     {
+      "name": "sing1261",
+      "points": 5.0,
+      "solved": 1,
+      "submissions": 1,
+      "tasks": {
+        "vitest-duration-sharding": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
+        }
+      },
+      "place": 8
+    },
+    {
       "name": "mai00082",
       "points": 2.5,
       "solved": 1,
@@ -3112,7 +3128,7 @@
           "points": 2.5
         }
       },
-      "place": 8
+      "place": 9
     }
   ]
 }
