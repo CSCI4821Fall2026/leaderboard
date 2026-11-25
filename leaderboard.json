@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:54:14+00:00",
+  "updated": "2026-11-25T16:28:18+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2052,7 +2052,7 @@
       "name": "benpullis",
       "points": 355.0,
       "solved": 43,
-      "submissions": 78,
+      "submissions": 79,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2367,6 +2367,10 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "bandit-structured-nosec-directives": {
+          "reward": 0,
+          "attempts": 1
         }
       },
       "place": 1
