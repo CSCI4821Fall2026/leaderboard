@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T16:40:10+00:00",
+  "updated": "2026-11-25T23:28:16+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -2038,21 +2038,22 @@
       "desc": "Add orderedmap and Starlark JSONPath query APIs with selectors, filters, and syntax errors.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "mahin-11"
+        "mahin-11",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     }
   ],
   "entries": [
     {
       "name": "benpullis",
-      "points": 355.0,
-      "solved": 43,
-      "submissions": 80,
+      "points": 360.0,
+      "solved": 44,
+      "submissions": 81,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2371,6 +2372,12 @@
         "bandit-structured-nosec-directives": {
           "reward": 0,
           "attempts": 2
+        },
+        "ytt-jsonpath-query-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 1
@@ -3021,7 +3028,7 @@
     },
     {
       "name": "mahin-11",
-      "points": 47.5,
+      "points": 42.5,
       "solved": 6,
       "submissions": 20,
       "tasks": {
@@ -3049,7 +3056,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "bandit-structured-nosec-directives": {
           "reward": 0,
