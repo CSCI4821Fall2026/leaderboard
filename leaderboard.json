@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T15:43:15+00:00",
+  "updated": "2026-11-26T19:40:49+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1458,14 +1458,15 @@
       "desc": "Add typed blend range objects, persist them on layers, and apply blend-if during compositing.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "umnfoxiny7",
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "pwntools-tube-multiplexing",
@@ -2052,9 +2053,9 @@
   "entries": [
     {
       "name": "benpullis",
-      "points": 363.3333,
-      "solved": 45,
-      "submissions": 82,
+      "points": 366.6667,
+      "solved": 46,
+      "submissions": 83,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2385,13 +2386,19 @@
           "attempts": 1,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "psd-tools-blend-range-api": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
         }
       },
       "place": 1
     },
     {
       "name": "umnfoxiny7",
-      "points": 305.0,
+      "points": 303.3333,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2399,7 +2406,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "bandit-interprocedural-taint-checks": {
           "reward": 1,
@@ -2630,7 +2637,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 221.6667,
+      "points": 220.0,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2666,7 +2673,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "adaptix-name-mapping-aliases": {
           "reward": 1,
