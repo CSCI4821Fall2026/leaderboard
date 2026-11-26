@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T23:28:16+00:00",
+  "updated": "2026-11-26T15:43:15+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -274,14 +274,15 @@
       "desc": "Add `partial_structure` and `PartialResult` for recoverable, field-level structuring with nested partial results.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 2,
+      "solvers": 3,
       "available": true,
       "solved_by": [
         "umnfoxiny7",
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 5.0,
-      "next_points": 3.3333
+      "points_each": 3.3333,
+      "next_points": 2.5
     },
     {
       "id": "clack-async-autocomplete-options",
@@ -2051,9 +2052,9 @@
   "entries": [
     {
       "name": "benpullis",
-      "points": 360.0,
-      "solved": 44,
-      "submissions": 81,
+      "points": 363.3333,
+      "solved": 45,
+      "submissions": 82,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2378,13 +2379,19 @@
           "attempts": 1,
           "rank": 2,
           "points": 5.0
+        },
+        "cattrs-partial-structuring-recovery": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 3,
+          "points": 3.3333333333333335
         }
       },
       "place": 1
     },
     {
       "name": "umnfoxiny7",
-      "points": 306.6667,
+      "points": 305.0,
       "solved": 35,
       "submissions": 53,
       "tasks": {
@@ -2444,7 +2451,7 @@
           "reward": 1,
           "attempts": 2,
           "rank": 1,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "sqlite-utils-safe-import-checkpoints": {
           "reward": 1,
@@ -2623,7 +2630,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 223.3333,
+      "points": 221.6667,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2689,7 +2696,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 2,
-          "points": 5.0
+          "points": 3.3333333333333335
         },
         "httpx-multipart-response-parsing": {
           "reward": 1,
