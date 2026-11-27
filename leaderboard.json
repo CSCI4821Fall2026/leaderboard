@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:40:49+00:00",
+  "updated": "2026-11-27T04:45:06+00:00",
   "max_per_task": 3,
   "max_solvers": 10,
   "tier_points": {
@@ -1689,13 +1689,14 @@
       "desc": "Add a graph export command for tasks with JSON, DOT, and text output, including reverse traversal and status control.",
       "tier": "easy",
       "max_points": 10,
-      "solvers": 1,
+      "solvers": 2,
       "available": true,
       "solved_by": [
-        "salee036-sys"
+        "salee036-sys",
+        "benpullis"
       ],
-      "points_each": 10.0,
-      "next_points": 5.0
+      "points_each": 5.0,
+      "next_points": 3.3333
     },
     {
       "id": "tengo-callable-instance-isolation",
@@ -2053,9 +2054,9 @@
   "entries": [
     {
       "name": "benpullis",
-      "points": 366.6667,
-      "solved": 46,
-      "submissions": 83,
+      "points": 371.6667,
+      "solved": 47,
+      "submissions": 84,
       "tasks": {
         "narwhals-rolling-window-suite": {
           "reward": 1,
@@ -2392,6 +2393,12 @@
           "attempts": 1,
           "rank": 3,
           "points": 3.3333333333333335
+        },
+        "task-task-graph-export": {
+          "reward": 1,
+          "attempts": 1,
+          "rank": 2,
+          "points": 5.0
         }
       },
       "place": 1
@@ -2637,7 +2644,7 @@
     },
     {
       "name": "salee036-sys",
-      "points": 220.0,
+      "points": 215.0,
       "solved": 30,
       "submissions": 43,
       "tasks": {
@@ -2739,7 +2746,7 @@
           "reward": 1,
           "attempts": 1,
           "rank": 1,
-          "points": 10.0
+          "points": 5.0
         },
         "dynamodb-toolbox-conditional-attribute-requirements": {
           "reward": 1,
